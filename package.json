@@ -17,7 +17,10 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "typecheck": "tsc -b --pretty false",
-    "validate": "npm run format:check && npm run lint && npm run test"
+    "generate:corpus": "node scripts/generateCorpus.mjs",
+    "validate:corpus": "tsx scripts/validateCorpus.ts",
+    "report:corpus": "tsx scripts/corpusReport.ts",
+    "validate": "npm run format:check && npm run lint && npm run test && npm run validate:corpus"
   },
   "dependencies": {
     "react": "^19.2.8",
@@ -41,6 +44,7 @@
     "prettier": "^3.6.2",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.65.0",
+    "tsx": "^4.20.3",
     "vite": "^8.1.5",
     "vitest": "^4.1.10"
   }
