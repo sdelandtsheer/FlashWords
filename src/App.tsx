@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 
 import { GameScreen } from './components/GameScreen'
+import { corpus } from './data/corpus'
 import { estimateStableLevel, proposedStartLevel } from './game/difficulty'
 import { toggleFullscreen } from './services/fullscreenService'
 import {
@@ -34,26 +35,27 @@ export function App() {
   const [lastSession, setLastSession] = useState<GameSession | null>(null)
   const [gameMode, setGameMode] = useState<'game' | 'training'>('game')
 
-  const allTrials = useMemo(() => player.sessions.flatMap((session) => session.trials), [player])
+  const mainSessions = useMemo(
+    () => player.sessions.filter((session) => session.mode === 'game'),
+    [player.sessions],
+  )
+  const allTrials = useMemo(() => mainSessions.flatMap((session) => session.trials), [mainSessions])
   const stableLevel = estimateStableLevel(allTrials)
   const records = useMemo(
     () => ({
-      score: Math.max(
-        0,
-        ...player.sessions.filter((item) => item.mode === 'game').map((item) => item.score),
-      ),
-      level: Math.max(1, ...player.sessions.map((item) => item.maxLevel)),
-      streak: Math.max(0, ...player.sessions.map((item) => item.bestStreak)),
+      score: Math.max(0, ...mainSessions.map((item) => item.score)),
+      level: Math.max(1, ...mainSessions.map((item) => item.maxLevel)),
+      streak: Math.max(0, ...mainSessions.map((item) => item.bestStreak)),
       successRate:
-        player.sessions.length === 0
+        mainSessions.length === 0
           ? 0
           : Math.round(
-              (player.sessions.reduce((sum, item) => sum + item.successes, 0) /
-                player.sessions.reduce((sum, item) => sum + item.successes + item.failures, 0)) *
+              (mainSessions.reduce((sum, item) => sum + item.successes, 0) /
+                mainSessions.reduce((sum, item) => sum + item.successes + item.failures, 0)) *
                 100,
             ),
     }),
-    [player.sessions],
+    [mainSessions],
   )
 
   const updateSettings = (next: Settings) => {
@@ -69,7 +71,7 @@ export function App() {
 
   const finishGame = (session: GameSession) => {
     setLastSession(session)
-    if (session.mode === 'game') setPlayer(saveSession(session))
+    setPlayer(saveSession(session))
     setScreen('summary')
   }
 
@@ -306,7 +308,7 @@ export function App() {
     return (
       <Page title="Résultats" onBack={() => setScreen('home')}>
         <div className="stats-grid">
-          <Stat label="Parties" value={player.sessions.length} />
+          <Stat label="Parties" value={mainSessions.length} />
           <Stat label="Meilleur score" value={records.score} />
           <Stat label="Niveau maximal" value={records.level} />
           <Stat label="Niveau stable" value={stableLevel} />
@@ -322,7 +324,8 @@ export function App() {
             <ul>
               {missed.map((item) => (
                 <li key={item.id}>
-                  {item.id} — {item.errors} erreur(s)
+                  {corpus.find((stimulus) => stimulus.id === item.id)?.text ?? item.id} —{' '}
+                  {item.errors} erreur(s)
                 </li>
               ))}
             </ul>
@@ -350,7 +353,7 @@ export function App() {
 
   if (screen === 'summary' && lastSession) {
     const attempts = lastSession.successes + lastSession.failures
-    const previousBest = Math.max(0, ...player.sessions.slice(0, -1).map((item) => item.score))
+    const previousBest = Math.max(0, ...mainSessions.slice(0, -1).map((item) => item.score))
     return (
       <Page title="Partie terminée" onBack={() => setScreen('home')}>
         <div className="stats-grid">

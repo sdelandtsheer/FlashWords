@@ -5,6 +5,7 @@ import type { GameMode, GamePhase, GameState, Stimulus } from '../types/game'
 
 export type GameAction =
   | { type: 'SET_PHASE'; phase: GamePhase; now?: number }
+  | { type: 'SET_LEVEL'; level: number }
   | { type: 'SET_STIMULUS'; stimulus: Stimulus }
   | { type: 'SET_ANSWER'; answer: string }
   | { type: 'SUBMIT'; correct: boolean; now: number }
@@ -46,6 +47,12 @@ export function gameReducer(state: GameState, action: GameAction): GameState {
         phase: action.phase,
         inputStartedAt:
           action.phase === 'input' ? (action.now ?? Date.now()) : state.inputStartedAt,
+      }
+    case 'SET_LEVEL':
+      return {
+        ...state,
+        level: action.level,
+        maxLevelReached: Math.max(state.maxLevelReached, action.level),
       }
     case 'SET_STIMULUS':
       return { ...state, currentStimulus: action.stimulus, answer: '' }

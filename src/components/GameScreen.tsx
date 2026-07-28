@@ -64,12 +64,18 @@ export function GameScreen({
 
   const chooseStimulus = useCallback(() => {
     const requestedLevel = Math.min(maxLevel, Math.max(minLevel, state.level))
-    const stimulus = selectStimulus(availableCorpus, requestedLevel, {
+    const levels = [...new Set(availableCorpus.map((item) => item.letterCount))]
+    const selectionLevel = levels.includes(requestedLevel)
+      ? requestedLevel
+      : (levels.sort((a, b) => Math.abs(a - requestedLevel) - Math.abs(b - requestedLevel))[0] ??
+        requestedLevel)
+    const stimulus = selectStimulus(availableCorpus, selectionLevel, {
       recentIds: recentIdsRef.current,
       usedIds: usedIdsRef.current,
       missedIds,
     })
     if (stimulus) {
+      if (selectionLevel !== state.level) dispatch({ type: 'SET_LEVEL', level: selectionLevel })
       dispatch({ type: 'SET_STIMULUS', stimulus })
       recentIdsRef.current = [...recentIdsRef.current, stimulus.id].slice(-10)
       usedIdsRef.current = [...usedIdsRef.current, stimulus.id]
@@ -236,7 +242,9 @@ export function GameScreen({
   const showFeedback = state.phase === 'success' || state.phase === 'failure'
 
   return (
-    <main className={`game-shell phase-${state.phase}`}>
+    <main
+      className={`game-shell phase-${state.phase} ${settings.largeText ? 'large-text' : ''} ${settings.highContrast ? 'high-contrast' : ''} ${settings.reducedMotion ? 'reduce-motion' : ''}`}
+    >
       <header className="game-hud" aria-label="Progression">
         <span>Niveau {state.level}</span>
         <span className="hud-score">{state.score} pts</span>
