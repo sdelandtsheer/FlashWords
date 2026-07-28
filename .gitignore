@@ -1,0 +1,19 @@
+node_modules/
+dist/
+coverage/
+.vite/
+*.local
+*.log
+
+# Environnements et caches
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+
+# IDE et système
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

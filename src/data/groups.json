@@ -1,0 +1,3260 @@
+[
+  {
+    "text": "un chat",
+    "type": "group",
+    "letterCount": 6,
+    "difficulty": 6,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0001"
+  },
+  {
+    "text": "un ciel",
+    "type": "group",
+    "letterCount": 6,
+    "difficulty": 6,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0002"
+  },
+  {
+    "text": "un bateau",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0003"
+  },
+  {
+    "text": "un ballon",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0004"
+  },
+  {
+    "text": "un cahier",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0005"
+  },
+  {
+    "text": "un chemin",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0006"
+  },
+  {
+    "text": "un étoile",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0007"
+  },
+  {
+    "text": "un jardin",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0008"
+  },
+  {
+    "text": "un maison",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0009"
+  },
+  {
+    "text": "un oiseau",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0010"
+  },
+  {
+    "text": "un projet",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0011"
+  },
+  {
+    "text": "un secret",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0012"
+  },
+  {
+    "text": "un soleil",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0013"
+  },
+  {
+    "text": "un voyage",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0014"
+  },
+  {
+    "text": "une arbre",
+    "type": "group",
+    "letterCount": 8,
+    "difficulty": 8,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0015"
+  },
+  {
+    "text": "un beau jeu",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0016"
+  },
+  {
+    "text": "un jeu beau",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0017"
+  },
+  {
+    "text": "un joli jeu",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0018"
+  },
+  {
+    "text": "un jeu joli",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0019"
+  },
+  {
+    "text": "un bleu jeu",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0020"
+  },
+  {
+    "text": "un jeu bleu",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0021"
+  },
+  {
+    "text": "un vert jeu",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0022"
+  },
+  {
+    "text": "un jeu vert",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0023"
+  },
+  {
+    "text": "un planète",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0024"
+  },
+  {
+    "text": "un rivière",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0025"
+  },
+  {
+    "text": "un village",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0026"
+  },
+  {
+    "text": "une bateau",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0027"
+  },
+  {
+    "text": "une ballon",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0028"
+  },
+  {
+    "text": "une cahier",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0029"
+  },
+  {
+    "text": "une chemin",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0030"
+  },
+  {
+    "text": "une étoile",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0031"
+  },
+  {
+    "text": "une jardin",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0032"
+  },
+  {
+    "text": "une maison",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0033"
+  },
+  {
+    "text": "une oiseau",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0034"
+  },
+  {
+    "text": "une projet",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0035"
+  },
+  {
+    "text": "une secret",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0036"
+  },
+  {
+    "text": "une soleil",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0037"
+  },
+  {
+    "text": "une voyage",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0038"
+  },
+  {
+    "text": "le beau jeu",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0039"
+  },
+  {
+    "text": "le jeu beau",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0040"
+  },
+  {
+    "text": "le joli jeu",
+    "type": "group",
+    "letterCount": 9,
+    "difficulty": 9,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0041"
+  },
+  {
+    "text": "un beau chat",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0042"
+  },
+  {
+    "text": "un chat beau",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0043"
+  },
+  {
+    "text": "un joli chat",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0044"
+  },
+  {
+    "text": "un chat joli",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0045"
+  },
+  {
+    "text": "un bleu chat",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0046"
+  },
+  {
+    "text": "un chat bleu",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0047"
+  },
+  {
+    "text": "un vert chat",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0048"
+  },
+  {
+    "text": "un chat vert",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0049"
+  },
+  {
+    "text": "un beau ciel",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0050"
+  },
+  {
+    "text": "un ciel beau",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0051"
+  },
+  {
+    "text": "un joli ciel",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0052"
+  },
+  {
+    "text": "un ciel joli",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0053"
+  },
+  {
+    "text": "un bleu ciel",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0054"
+  },
+  {
+    "text": "un ciel bleu",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0055"
+  },
+  {
+    "text": "un vert ciel",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0056"
+  },
+  {
+    "text": "un ciel vert",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0057"
+  },
+  {
+    "text": "un beau code",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0058"
+  },
+  {
+    "text": "un code beau",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0059"
+  },
+  {
+    "text": "un joli code",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0060"
+  },
+  {
+    "text": "un code joli",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0061"
+  },
+  {
+    "text": "un bleu code",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0062"
+  },
+  {
+    "text": "un code bleu",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0063"
+  },
+  {
+    "text": "un vert code",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0064"
+  },
+  {
+    "text": "un code vert",
+    "type": "group",
+    "letterCount": 10,
+    "difficulty": 10,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0065"
+  },
+  {
+    "text": "un beau arbre",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0066"
+  },
+  {
+    "text": "un arbre beau",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0067"
+  },
+  {
+    "text": "un joli arbre",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0068"
+  },
+  {
+    "text": "un arbre joli",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0069"
+  },
+  {
+    "text": "un bleu arbre",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0070"
+  },
+  {
+    "text": "un arbre bleu",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0071"
+  },
+  {
+    "text": "un vert arbre",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0072"
+  },
+  {
+    "text": "un arbre vert",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0073"
+  },
+  {
+    "text": "un beau avion",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0074"
+  },
+  {
+    "text": "un avion beau",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0075"
+  },
+  {
+    "text": "un joli avion",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0076"
+  },
+  {
+    "text": "un avion joli",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0077"
+  },
+  {
+    "text": "un bleu avion",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0078"
+  },
+  {
+    "text": "un avion bleu",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0079"
+  },
+  {
+    "text": "un vert avion",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0080"
+  },
+  {
+    "text": "un avion vert",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0081"
+  },
+  {
+    "text": "un grand chat",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0082"
+  },
+  {
+    "text": "un chat grand",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0083"
+  },
+  {
+    "text": "un petit chat",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0084"
+  },
+  {
+    "text": "un chat petit",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0085"
+  },
+  {
+    "text": "un jeune chat",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0086"
+  },
+  {
+    "text": "un chat jeune",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0087"
+  },
+  {
+    "text": "un vieux chat",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0088"
+  },
+  {
+    "text": "un chat vieux",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0089"
+  },
+  {
+    "text": "un rouge chat",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0090"
+  },
+  {
+    "text": "un chat rouge",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0091"
+  },
+  {
+    "text": "un calme chat",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0092"
+  },
+  {
+    "text": "un chat calme",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0093"
+  },
+  {
+    "text": "un drôle chat",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0094"
+  },
+  {
+    "text": "un chat drôle",
+    "type": "group",
+    "letterCount": 11,
+    "difficulty": 11,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0095"
+  },
+  {
+    "text": "un grand arbre",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0096"
+  },
+  {
+    "text": "un arbre grand",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0097"
+  },
+  {
+    "text": "un petit arbre",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0098"
+  },
+  {
+    "text": "un arbre petit",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0099"
+  },
+  {
+    "text": "un jeune arbre",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0100"
+  },
+  {
+    "text": "un arbre jeune",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0101"
+  },
+  {
+    "text": "un vieux arbre",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0102"
+  },
+  {
+    "text": "un arbre vieux",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0103"
+  },
+  {
+    "text": "un rouge arbre",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0104"
+  },
+  {
+    "text": "un arbre rouge",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0105"
+  },
+  {
+    "text": "un calme arbre",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0106"
+  },
+  {
+    "text": "un arbre calme",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0107"
+  },
+  {
+    "text": "un drôle arbre",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0108"
+  },
+  {
+    "text": "un arbre drôle",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0109"
+  },
+  {
+    "text": "un léger arbre",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0110"
+  },
+  {
+    "text": "un arbre léger",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0111"
+  },
+  {
+    "text": "un grand avion",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0112"
+  },
+  {
+    "text": "un avion grand",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0113"
+  },
+  {
+    "text": "un petit avion",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0114"
+  },
+  {
+    "text": "un avion petit",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0115"
+  },
+  {
+    "text": "un jeune avion",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0116"
+  },
+  {
+    "text": "un avion jeune",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0117"
+  },
+  {
+    "text": "un vieux avion",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0118"
+  },
+  {
+    "text": "un avion vieux",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0119"
+  },
+  {
+    "text": "un rouge avion",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0120"
+  },
+  {
+    "text": "un avion rouge",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0121"
+  },
+  {
+    "text": "un calme avion",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0122"
+  },
+  {
+    "text": "un avion calme",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0123"
+  },
+  {
+    "text": "un drôle avion",
+    "type": "group",
+    "letterCount": 12,
+    "difficulty": 12,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0124"
+  },
+  {
+    "text": "un rapide arbre",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0125"
+  },
+  {
+    "text": "un arbre rapide",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0126"
+  },
+  {
+    "text": "un solide arbre",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0127"
+  },
+  {
+    "text": "un arbre solide",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0128"
+  },
+  {
+    "text": "un rapide avion",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0129"
+  },
+  {
+    "text": "un avion rapide",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0130"
+  },
+  {
+    "text": "un solide avion",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0131"
+  },
+  {
+    "text": "un avion solide",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0132"
+  },
+  {
+    "text": "un grand bateau",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0133"
+  },
+  {
+    "text": "un bateau grand",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0134"
+  },
+  {
+    "text": "un petit bateau",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0135"
+  },
+  {
+    "text": "un bateau petit",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0136"
+  },
+  {
+    "text": "un jeune bateau",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0137"
+  },
+  {
+    "text": "un bateau jeune",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0138"
+  },
+  {
+    "text": "un vieux bateau",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0139"
+  },
+  {
+    "text": "un bateau vieux",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0140"
+  },
+  {
+    "text": "un rouge bateau",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0141"
+  },
+  {
+    "text": "un bateau rouge",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0142"
+  },
+  {
+    "text": "un calme bateau",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0143"
+  },
+  {
+    "text": "un bateau calme",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0144"
+  },
+  {
+    "text": "un drôle bateau",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0145"
+  },
+  {
+    "text": "un bateau drôle",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0146"
+  },
+  {
+    "text": "un léger bateau",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0147"
+  },
+  {
+    "text": "un bateau léger",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0148"
+  },
+  {
+    "text": "un grand ballon",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0149"
+  },
+  {
+    "text": "un ballon grand",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0150"
+  },
+  {
+    "text": "un petit ballon",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0151"
+  },
+  {
+    "text": "un ballon petit",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0152"
+  },
+  {
+    "text": "un jeune ballon",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0153"
+  },
+  {
+    "text": "un ballon jeune",
+    "type": "group",
+    "letterCount": 13,
+    "difficulty": 13,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0154"
+  },
+  {
+    "text": "un discret arbre",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0155"
+  },
+  {
+    "text": "un arbre discret",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0156"
+  },
+  {
+    "text": "un curieux arbre",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0157"
+  },
+  {
+    "text": "un arbre curieux",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0158"
+  },
+  {
+    "text": "un étrange arbre",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0159"
+  },
+  {
+    "text": "un arbre étrange",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0160"
+  },
+  {
+    "text": "un discret avion",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0161"
+  },
+  {
+    "text": "un avion discret",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0162"
+  },
+  {
+    "text": "un curieux avion",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0163"
+  },
+  {
+    "text": "un avion curieux",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0164"
+  },
+  {
+    "text": "un étrange avion",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0165"
+  },
+  {
+    "text": "un avion étrange",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0166"
+  },
+  {
+    "text": "un rapide bateau",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0167"
+  },
+  {
+    "text": "un bateau rapide",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0168"
+  },
+  {
+    "text": "un solide bateau",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0169"
+  },
+  {
+    "text": "un bateau solide",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0170"
+  },
+  {
+    "text": "un rapide ballon",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0171"
+  },
+  {
+    "text": "un ballon rapide",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0172"
+  },
+  {
+    "text": "un solide ballon",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0173"
+  },
+  {
+    "text": "un ballon solide",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0174"
+  },
+  {
+    "text": "un rapide cahier",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0175"
+  },
+  {
+    "text": "un cahier rapide",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0176"
+  },
+  {
+    "text": "un solide cahier",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0177"
+  },
+  {
+    "text": "un cahier solide",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0178"
+  },
+  {
+    "text": "un brillant chat",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0179"
+  },
+  {
+    "text": "un chat brillant",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0180"
+  },
+  {
+    "text": "un rapide chemin",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0181"
+  },
+  {
+    "text": "un chemin rapide",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0182"
+  },
+  {
+    "text": "un solide chemin",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0183"
+  },
+  {
+    "text": "un chemin solide",
+    "type": "group",
+    "letterCount": 14,
+    "difficulty": 14,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0184"
+  },
+  {
+    "text": "un brillant arbre",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0185"
+  },
+  {
+    "text": "un arbre brillant",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0186"
+  },
+  {
+    "text": "un brillant avion",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0187"
+  },
+  {
+    "text": "un avion brillant",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0188"
+  },
+  {
+    "text": "un discret bateau",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0189"
+  },
+  {
+    "text": "un bateau discret",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0190"
+  },
+  {
+    "text": "un curieux bateau",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0191"
+  },
+  {
+    "text": "un bateau curieux",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0192"
+  },
+  {
+    "text": "un étrange bateau",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0193"
+  },
+  {
+    "text": "un bateau étrange",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0194"
+  },
+  {
+    "text": "un discret ballon",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0195"
+  },
+  {
+    "text": "un ballon discret",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0196"
+  },
+  {
+    "text": "un curieux ballon",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0197"
+  },
+  {
+    "text": "un ballon curieux",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0198"
+  },
+  {
+    "text": "un étrange ballon",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0199"
+  },
+  {
+    "text": "un ballon étrange",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0200"
+  },
+  {
+    "text": "un discret cahier",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0201"
+  },
+  {
+    "text": "un cahier discret",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0202"
+  },
+  {
+    "text": "un curieux cahier",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0203"
+  },
+  {
+    "text": "un cahier curieux",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0204"
+  },
+  {
+    "text": "un étrange cahier",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0205"
+  },
+  {
+    "text": "un cahier étrange",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0206"
+  },
+  {
+    "text": "un discret chemin",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0207"
+  },
+  {
+    "text": "un chemin discret",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0208"
+  },
+  {
+    "text": "un curieux chemin",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0209"
+  },
+  {
+    "text": "un chemin curieux",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0210"
+  },
+  {
+    "text": "un étrange chemin",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0211"
+  },
+  {
+    "text": "un chemin étrange",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0212"
+  },
+  {
+    "text": "un brillant chien",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0213"
+  },
+  {
+    "text": "un chien brillant",
+    "type": "group",
+    "letterCount": 15,
+    "difficulty": 15,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0214"
+  },
+  {
+    "text": "un brillant bateau",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0215"
+  },
+  {
+    "text": "un bateau brillant",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0216"
+  },
+  {
+    "text": "un brillant ballon",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0217"
+  },
+  {
+    "text": "un ballon brillant",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0218"
+  },
+  {
+    "text": "un brillant cahier",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0219"
+  },
+  {
+    "text": "un cahier brillant",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0220"
+  },
+  {
+    "text": "un brillant chemin",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0221"
+  },
+  {
+    "text": "un chemin brillant",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0222"
+  },
+  {
+    "text": "un brillant étoile",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0223"
+  },
+  {
+    "text": "un étoile brillant",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0224"
+  },
+  {
+    "text": "un brillant jardin",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0225"
+  },
+  {
+    "text": "un jardin brillant",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0226"
+  },
+  {
+    "text": "un brillant maison",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0227"
+  },
+  {
+    "text": "un maison brillant",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0228"
+  },
+  {
+    "text": "un rapide montagne",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0229"
+  },
+  {
+    "text": "un montagne rapide",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0230"
+  },
+  {
+    "text": "un solide montagne",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0231"
+  },
+  {
+    "text": "un montagne solide",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0232"
+  },
+  {
+    "text": "un brillant oiseau",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0233"
+  },
+  {
+    "text": "un oiseau brillant",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0234"
+  },
+  {
+    "text": "un discret planète",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0235"
+  },
+  {
+    "text": "un planète discret",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0236"
+  },
+  {
+    "text": "un curieux planète",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0237"
+  },
+  {
+    "text": "un planète curieux",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0238"
+  },
+  {
+    "text": "un étrange planète",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0239"
+  },
+  {
+    "text": "un planète étrange",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0240"
+  },
+  {
+    "text": "un brillant projet",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0241"
+  },
+  {
+    "text": "un projet brillant",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0242"
+  },
+  {
+    "text": "un discret rivière",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0243"
+  },
+  {
+    "text": "un rivière discret",
+    "type": "group",
+    "letterCount": 16,
+    "difficulty": 16,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0244"
+  },
+  {
+    "text": "un discret montagne",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0245"
+  },
+  {
+    "text": "un montagne discret",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0246"
+  },
+  {
+    "text": "un curieux montagne",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0247"
+  },
+  {
+    "text": "un montagne curieux",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0248"
+  },
+  {
+    "text": "un étrange montagne",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0249"
+  },
+  {
+    "text": "un montagne étrange",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0250"
+  },
+  {
+    "text": "un brillant planète",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0251"
+  },
+  {
+    "text": "un planète brillant",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0252"
+  },
+  {
+    "text": "un brillant rivière",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0253"
+  },
+  {
+    "text": "un rivière brillant",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0254"
+  },
+  {
+    "text": "un brillant village",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0255"
+  },
+  {
+    "text": "un village brillant",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0256"
+  },
+  {
+    "text": "une brillant bateau",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0257"
+  },
+  {
+    "text": "une bateau brillant",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0258"
+  },
+  {
+    "text": "une brillant ballon",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0259"
+  },
+  {
+    "text": "une ballon brillant",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0260"
+  },
+  {
+    "text": "une brillant cahier",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0261"
+  },
+  {
+    "text": "une cahier brillant",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0262"
+  },
+  {
+    "text": "une brillant chemin",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0263"
+  },
+  {
+    "text": "une chemin brillant",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0264"
+  },
+  {
+    "text": "une brillant étoile",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0265"
+  },
+  {
+    "text": "une étoile brillant",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0266"
+  },
+  {
+    "text": "une brillant jardin",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0267"
+  },
+  {
+    "text": "une jardin brillant",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0268"
+  },
+  {
+    "text": "une brillant maison",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0269"
+  },
+  {
+    "text": "une maison brillant",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0270"
+  },
+  {
+    "text": "une rapide montagne",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0271"
+  },
+  {
+    "text": "une montagne rapide",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0272"
+  },
+  {
+    "text": "une solide montagne",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0273"
+  },
+  {
+    "text": "une montagne solide",
+    "type": "group",
+    "letterCount": 17,
+    "difficulty": 17,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0274"
+  },
+  {
+    "text": "un brillant montagne",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0275"
+  },
+  {
+    "text": "un montagne brillant",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0276"
+  },
+  {
+    "text": "une discret montagne",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0277"
+  },
+  {
+    "text": "une montagne discret",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0278"
+  },
+  {
+    "text": "une curieux montagne",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0279"
+  },
+  {
+    "text": "une montagne curieux",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0280"
+  },
+  {
+    "text": "une étrange montagne",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0281"
+  },
+  {
+    "text": "une montagne étrange",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0282"
+  },
+  {
+    "text": "une brillant planète",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0283"
+  },
+  {
+    "text": "une planète brillant",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0284"
+  },
+  {
+    "text": "une brillant rivière",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0285"
+  },
+  {
+    "text": "une rivière brillant",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0286"
+  },
+  {
+    "text": "une brillant village",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0287"
+  },
+  {
+    "text": "une village brillant",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0288"
+  },
+  {
+    "text": "le brillant montagne",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0289"
+  },
+  {
+    "text": "le montagne brillant",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0290"
+  },
+  {
+    "text": "la brillant montagne",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0291"
+  },
+  {
+    "text": "la montagne brillant",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0292"
+  },
+  {
+    "text": "ce brillant montagne",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0293"
+  },
+  {
+    "text": "ce montagne brillant",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0294"
+  },
+  {
+    "text": "cette brillant arbre",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0295"
+  },
+  {
+    "text": "cette arbre brillant",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0296"
+  },
+  {
+    "text": "cette brillant avion",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0297"
+  },
+  {
+    "text": "cette avion brillant",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0298"
+  },
+  {
+    "text": "cette discret bateau",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0299"
+  },
+  {
+    "text": "cette bateau discret",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0300"
+  },
+  {
+    "text": "cette curieux bateau",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0301"
+  },
+  {
+    "text": "cette bateau curieux",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0302"
+  },
+  {
+    "text": "cette étrange bateau",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0303"
+  },
+  {
+    "text": "cette bateau étrange",
+    "type": "group",
+    "letterCount": 18,
+    "difficulty": 18,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0304"
+  },
+  {
+    "text": "une brillant montagne",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0305"
+  },
+  {
+    "text": "une montagne brillant",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0306"
+  },
+  {
+    "text": "cette brillant bateau",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0307"
+  },
+  {
+    "text": "cette bateau brillant",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0308"
+  },
+  {
+    "text": "cette brillant ballon",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0309"
+  },
+  {
+    "text": "cette ballon brillant",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "group_0310"
+  },
+  {
+    "text": "cette brillant cahier",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0311"
+  },
+  {
+    "text": "cette cahier brillant",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "group_0312"
+  },
+  {
+    "text": "cette brillant chemin",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0313"
+  },
+  {
+    "text": "cette chemin brillant",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0314"
+  },
+  {
+    "text": "cette brillant étoile",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0315"
+  },
+  {
+    "text": "cette étoile brillant",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0316"
+  },
+  {
+    "text": "cette brillant jardin",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0317"
+  },
+  {
+    "text": "cette jardin brillant",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0318"
+  },
+  {
+    "text": "cette brillant maison",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0319"
+  },
+  {
+    "text": "cette maison brillant",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0320"
+  },
+  {
+    "text": "cette rapide montagne",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0321"
+  },
+  {
+    "text": "cette montagne rapide",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0322"
+  },
+  {
+    "text": "cette solide montagne",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0323"
+  },
+  {
+    "text": "cette montagne solide",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0324"
+  },
+  {
+    "text": "cette brillant oiseau",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0325"
+  },
+  {
+    "text": "cette oiseau brillant",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "group_0326"
+  },
+  {
+    "text": "cette discret planète",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0327"
+  },
+  {
+    "text": "cette planète discret",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0328"
+  },
+  {
+    "text": "cette curieux planète",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0329"
+  },
+  {
+    "text": "cette planète curieux",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0330"
+  },
+  {
+    "text": "cette étrange planète",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0331"
+  },
+  {
+    "text": "cette planète étrange",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0332"
+  },
+  {
+    "text": "cette brillant projet",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0333"
+  },
+  {
+    "text": "cette projet brillant",
+    "type": "group",
+    "letterCount": 19,
+    "difficulty": 19,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0334"
+  },
+  {
+    "text": "cette discret montagne",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0335"
+  },
+  {
+    "text": "cette montagne discret",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0336"
+  },
+  {
+    "text": "cette curieux montagne",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0337"
+  },
+  {
+    "text": "cette montagne curieux",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0338"
+  },
+  {
+    "text": "cette étrange montagne",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0339"
+  },
+  {
+    "text": "cette montagne étrange",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0340"
+  },
+  {
+    "text": "cette brillant planète",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0341"
+  },
+  {
+    "text": "cette planète brillant",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0342"
+  },
+  {
+    "text": "cette brillant rivière",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0343"
+  },
+  {
+    "text": "cette rivière brillant",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0344"
+  },
+  {
+    "text": "cette brillant village",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0345"
+  },
+  {
+    "text": "cette village brillant",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0346"
+  },
+  {
+    "text": "notre discret montagne",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0347"
+  },
+  {
+    "text": "notre montagne discret",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0348"
+  },
+  {
+    "text": "notre curieux montagne",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0349"
+  },
+  {
+    "text": "notre montagne curieux",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0350"
+  },
+  {
+    "text": "notre étrange montagne",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0351"
+  },
+  {
+    "text": "notre montagne étrange",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0352"
+  },
+  {
+    "text": "notre brillant planète",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0353"
+  },
+  {
+    "text": "notre planète brillant",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "group_0354"
+  },
+  {
+    "text": "notre brillant rivière",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0355"
+  },
+  {
+    "text": "notre rivière brillant",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "group_0356"
+  },
+  {
+    "text": "notre brillant village",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0357"
+  },
+  {
+    "text": "notre village brillant",
+    "type": "group",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0358"
+  },
+  {
+    "text": "cette brillant montagne",
+    "type": "group",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0359"
+  },
+  {
+    "text": "cette montagne brillant",
+    "type": "group",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0360"
+  },
+  {
+    "text": "notre brillant montagne",
+    "type": "group",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0361"
+  },
+  {
+    "text": "notre montagne brillant",
+    "type": "group",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "group_0362"
+  }
+]

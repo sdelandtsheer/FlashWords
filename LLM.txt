@@ -1,0 +1,1437 @@
+# Instructions complètes pour transformer FlashWords en véritable jeu
+
+## 1. Mission
+
+Reprogrammer entièrement le dépôt GitHub :
+
+```text
+sdelandtsheer/FlashWords
+```
+
+Le prototype Python actuel doit devenir un véritable jeu éducatif en français destiné principalement à un enfant d’environ 12 ans.
+
+Le principe central reste le suivant :
+
+1. un caractère, un mot, un groupe de mots ou une petite phrase apparaît brièvement ;
+2. le texte disparaît ;
+3. un champ de saisie apparaît ;
+4. le joueur doit retaper ce qu’il a vu ;
+5. une bonne réponse augmente la difficulté ;
+6. une mauvaise réponse la diminue.
+
+Le jeu doit être rapide, clair, agréable et motivant, sans être infantile.
+
+Ne pas transformer le projet en plateforme éducative complexe. Ne pas créer de serveur, de compte utilisateur, de cloud, de classement en ligne ou de système de paiement.
+
+---
+
+# 2. Décisions générales de conception
+
+## 2.1 Objectif réel du jeu
+
+Le jeu entraîne principalement :
+
+* la reconnaissance visuelle rapide ;
+* la mémorisation immédiate de lettres et de mots ;
+* la perception de groupes de mots ;
+* l’attention visuelle ;
+* la restitution orthographique ;
+* l’automatisation de la reconnaissance de mots fréquents.
+
+Ne pas présenter le jeu comme un traitement médical ou comme un outil diagnostique.
+
+## 2.2 Public cible
+
+Le style doit convenir à un enfant de 12 ans :
+
+* moderne ;
+* sobre ;
+* dynamique ;
+* légèrement ludique ;
+* jamais bébé ou maternelle.
+
+Éviter :
+
+* les mascottes enfantines ;
+* les récompenses excessives ;
+* les couleurs pastel ;
+* les animations permanentes ;
+* les messages condescendants ;
+* les sons trop aigus ou agressifs.
+
+## 2.3 Langue
+
+Toute l’interface doit être en français :
+
+* menus ;
+* boutons ;
+* messages ;
+* statistiques ;
+* annonces vocales ;
+* documentation utilisateur.
+
+Les noms de variables, composants et fonctions peuvent rester en anglais.
+
+---
+
+# 3. Architecture technique
+
+Créer une application Web locale avec :
+
+* React ;
+* TypeScript ;
+* Vite ;
+* CSS classique ou modules CSS ;
+* Vitest pour les tests unitaires ;
+* React Testing Library pour les composants principaux.
+
+Ne pas ajouter de framework graphique lourd.
+
+Ne pas utiliser :
+
+* de serveur ;
+* de base de données distante ;
+* d’authentification ;
+* de bibliothèque d’état globale complexe ;
+* de moteur de jeu ;
+* de bibliothèque d’animations externe sauf nécessité réelle.
+
+Les données doivent être sauvegardées dans `localStorage`.
+
+L’application doit fonctionner dans les versions récentes de :
+
+* Chrome ;
+* Edge ;
+* Firefox ;
+* Safari.
+
+Elle doit pouvoir être lancée localement avec :
+
+```bash
+npm install
+npm run dev
+```
+
+et construite avec :
+
+```bash
+npm run build
+```
+
+## 3.1 Conservation du prototype
+
+Déplacer l’actuel fichier Python dans :
+
+```text
+legacy/script.py
+```
+
+Ajouter dans `legacy/README.md` une courte explication indiquant qu’il s’agit du prototype initial.
+
+Ne pas réutiliser Tkinter dans la nouvelle version.
+
+## 3.2 Structure recommandée
+
+```text
+FlashWords/
+├── legacy/
+│   ├── script.py
+│   └── README.md
+├── public/
+│   └── icons/
+├── src/
+│   ├── components/
+│   ├── screens/
+│   ├── game/
+│   │   ├── gameEngine.ts
+│   │   ├── gameState.ts
+│   │   ├── difficulty.ts
+│   │   ├── normalization.ts
+│   │   ├── stimulusSelector.ts
+│   │   ├── timing.ts
+│   │   └── scoring.ts
+│   ├── data/
+│   │   ├── letters.json
+│   │   ├── syllables.json
+│   │   ├── words.json
+│   │   ├── groups.json
+│   │   └── sentences.json
+│   ├── services/
+│   │   ├── audioService.ts
+│   │   ├── speechService.ts
+│   │   └── storageService.ts
+│   ├── styles/
+│   ├── types/
+│   ├── App.tsx
+│   └── main.tsx
+├── scripts/
+│   ├── validateCorpus.ts
+│   └── corpusReport.ts
+├── tests/
+├── README.md
+├── package.json
+└── vite.config.ts
+```
+
+Cette structure est indicative. Elle peut être légèrement adaptée, mais la logique du jeu ne doit pas être concentrée dans un seul composant.
+
+---
+
+# 4. Modes de jeu
+
+Créer deux modes.
+
+## 4.1 Partie
+
+C’est le mode principal.
+
+Caractéristiques :
+
+* 20 essais ;
+* progression adaptative ;
+* score ;
+* séries de bonnes réponses ;
+* niveau maximal ;
+* record personnel ;
+* écran de résultats à la fin.
+
+Lors de la toute première partie, le joueur commence au niveau 1.
+
+Pour les parties suivantes, proposer deux boutons :
+
+```text
+Continuer
+Repartir du niveau 1
+```
+
+Le bouton principal **Continuer** démarre trois niveaux sous le niveau stable estimé du joueur.
+
+Exemple :
+
+```text
+niveau stable estimé : 14
+niveau de départ proposé : 11
+```
+
+Le niveau de départ ne peut jamais être inférieur à 1.
+
+Cette modification évite d’obliger le joueur à revoir les lettres isolées au début de chaque session.
+
+## 4.2 Entraînement
+
+Permet de choisir :
+
+* le niveau de départ ;
+* une plage de niveaux ;
+* le type de contenu ;
+* la durée de la session ;
+* la vitesse d’exposition.
+
+Options de contenu :
+
+* lettres ;
+* syllabes ;
+* mots ;
+* groupes de mots ;
+* phrases ;
+* mélange adapté au niveau.
+
+Le mode Entraînement ne modifie pas le record principal.
+
+---
+
+# 5. Écrans
+
+## 5.1 Accueil
+
+Afficher :
+
+* le titre **FlashWords** ;
+* le sous-titre **Observe. Mémorise. Écris.** ;
+* un bouton principal **Jouer** ;
+* un bouton **Entraînement** ;
+* un bouton **Résultats** ;
+* un bouton **Réglages** ;
+* le record personnel ;
+* le niveau stable estimé.
+
+L’écran doit rester simple.
+
+## 5.2 Partie
+
+Pendant une manche, afficher uniquement :
+
+* le niveau actuel en haut à gauche ;
+* le numéro de l’essai en haut à droite ;
+* le score de manière discrète ;
+* le point de fixation ;
+* le stimulus ;
+* puis le champ de réponse.
+
+Ne jamais afficher le champ de réponse en même temps que le stimulus.
+
+## 5.3 Pause
+
+La touche Échap ouvre un écran de pause avec :
+
+* **Reprendre** ;
+* **Recommencer la partie** ;
+* **Quitter la partie** ;
+* **Couper le son**.
+
+## 5.4 Fin de partie
+
+Afficher :
+
+* score total ;
+* niveau maximal atteint ;
+* niveau final ;
+* taux de réussite ;
+* meilleure série ;
+* record battu ou non ;
+* temps moyen de réponse ;
+* bouton **Rejouer** ;
+* bouton **Accueil**.
+
+---
+
+# 6. Déroulement d’un essai
+
+Utiliser une machine à états explicite.
+
+États recommandés :
+
+```text
+fixation
+stimulus
+blank
+input
+success
+failure
+transition
+paused
+finished
+```
+
+Déroulement exact :
+
+1. afficher le point de fixation ;
+2. attendre le délai de fixation ;
+3. afficher immédiatement le stimulus ;
+4. maintenir le stimulus pendant la durée prévue ;
+5. masquer complètement le stimulus ;
+6. afficher un bref écran vide ;
+7. faire apparaître le champ de saisie ;
+8. placer immédiatement le curseur dans le champ ;
+9. attendre la saisie du joueur ;
+10. valider avec Entrée ;
+11. afficher le retour de réussite ou d’échec ;
+12. modifier le niveau ;
+13. passer automatiquement à l’essai suivant.
+
+Une réponse vide ne doit pas être validée.
+
+Pendant le retour visuel, empêcher toute nouvelle validation.
+
+Si la page perd le focus pendant l’affichage du stimulus :
+
+* mettre automatiquement le jeu en pause ;
+* annuler l’essai en cours ;
+* ne pas compter cet essai ;
+* choisir un autre stimulus lors de la reprise.
+
+---
+
+# 7. Niveau et longueur du stimulus
+
+Le niveau correspond au nombre de lettres affichées.
+
+Ne pas compter :
+
+* les espaces ;
+* les apostrophes ;
+* les traits d’union ;
+* les signes de ponctuation ;
+* les chiffres éventuels.
+
+Compter les caractères accentués comme une lettre.
+
+La ligature `œ` compte comme une lettre affichée.
+
+Exemples :
+
+```text
+a                 → niveau 1
+un                → niveau 2
+chat              → niveau 4
+l'ami             → niveau 4
+arc-en-ciel       → niveau 10
+Le chat dort.     → niveau 10
+```
+
+Créer une seule fonction centrale :
+
+```typescript
+countLetters(text: string): number
+```
+
+Cette fonction doit être testée.
+
+---
+
+# 8. Progression
+
+Pendant une partie :
+
+```text
+bonne réponse → niveau + 1
+mauvaise réponse → niveau - 1
+```
+
+Le niveau minimum est 1.
+
+Le niveau maximal dépend du corpus disponible.
+
+Exemples :
+
+```text
+niveau 5 + réussite → niveau 6
+niveau 5 + échec → niveau 4
+niveau 1 + échec → niveau 1
+```
+
+Cette règle doit rester simple.
+
+## 8.1 Niveau stable
+
+Calculer séparément un **niveau stable estimé**.
+
+Le niveau stable correspond approximativement au plus haut niveau pour lequel le joueur atteint au moins 70 % de réussite sur ses essais récents.
+
+Ce niveau stable sert uniquement à proposer un point de départ raisonnable lors des parties suivantes.
+
+Il ne remplace pas le niveau instantané de la partie.
+
+Ne pas utiliser d’algorithme statistique complexe. Une moyenne glissante simple par plage de niveaux suffit.
+
+---
+
+# 9. Durée d’exposition
+
+La durée doit augmenter légèrement avec le nombre de lettres.
+
+Utiliser par défaut :
+
+```text
+durée normale = 500 ms + 25 ms × (nombre de lettres - 1)
+```
+
+Limiter le résultat entre :
+
+```text
+minimum : 500 ms
+maximum : 1 800 ms
+```
+
+Ajouter trois vitesses :
+
+```text
+Lente   : durée × 1,25
+Normale : durée × 1,00
+Rapide  : durée × 0,80
+```
+
+Réglages par défaut :
+
+```text
+fixation : 600 ms
+écran vide après stimulus : 120 ms
+```
+
+Toutes ces valeurs doivent être centralisées dans un fichier de configuration.
+
+Ne jamais utiliser une exposition de 50 ms par défaut.
+
+---
+
+# 10. Affichage du stimulus
+
+Le stimulus doit :
+
+* apparaître immédiatement ;
+* être parfaitement centré ;
+* être blanc sur fond très sombre ;
+* utiliser une police sans sérif très lisible ;
+* être suffisamment grand ;
+* disparaître sans fondu lent.
+
+Pour les phrases longues :
+
+* autoriser deux lignes ;
+* centrer les lignes ;
+* réduire modérément la taille ;
+* ne jamais descendre sous une taille lisible ;
+* ne jamais afficher trois lignes.
+
+La taille du texte doit être calculée selon la longueur et la largeur disponible.
+
+Le point de fixation peut disparaître pendant l’affichage du texte afin de ne pas gêner la lecture.
+
+---
+
+# 11. Champ de réponse
+
+Après le stimulus :
+
+* afficher un champ large au centre ;
+* donner automatiquement le focus ;
+* afficher un curseur bien visible ;
+* permettre les corrections classiques ;
+* valider avec Entrée ;
+* afficher un bouton **Valider** sur écran tactile.
+
+Ne pas imposer de limite de temps pour répondre.
+
+Mesurer le temps de réponse, mais ne pas l’utiliser pour décider si la réponse est correcte.
+
+Le jeu mesure d’abord la reconnaissance du stimulus, pas la vitesse de frappe.
+
+---
+
+# 12. Comparaison des réponses
+
+La capitalisation et les accents ne comptent pas.
+
+Les réponses suivantes doivent être équivalentes :
+
+```text
+ÉCOLE
+école
+Ecole
+ecole
+```
+
+Créer une fonction centrale :
+
+```typescript
+normalizeAnswer(text: string): string
+```
+
+Elle doit :
+
+1. supprimer les espaces de début et de fin ;
+2. convertir en minuscules ;
+3. appliquer une normalisation Unicode ;
+4. supprimer les signes diacritiques ;
+5. convertir `œ` en `oe` ;
+6. convertir `æ` en `ae` ;
+7. normaliser les apostrophes typographiques ;
+8. normaliser les espaces insécables ;
+9. réduire les suites d’espaces à un seul espace ;
+10. ignorer la ponctuation placée à la fin de la réponse.
+
+Exemples :
+
+```text
+Stimulus : Le château.
+Accepté : le chateau
+Accepté : LE CHÂTEAU
+Refusé : le chateu
+Refusé : le grand chateau
+```
+
+Ne pas utiliser de correction approximative.
+
+Une lettre manquante, ajoutée ou incorrecte reste une erreur.
+
+---
+
+# 13. Retour en cas de réussite
+
+Lorsqu’une réponse est correcte :
+
+1. verrouiller le champ ;
+2. jouer un son positif court ;
+3. afficher une animation verte ;
+4. afficher :
+
+```text
+Réussi !
+Niveau 8
+```
+
+5. afficher brièvement le stimulus correct ;
+6. augmenter le score ;
+7. passer automatiquement à l’essai suivant.
+
+Animation recommandée :
+
+* halo vert ;
+* légère impulsion du texte ;
+* quelques particules simples ;
+* durée entre 600 et 900 ms.
+
+Ne pas utiliser de voix pour chaque réussite. Cela ralentirait inutilement la partie.
+
+---
+
+# 14. Retour en cas d’échec
+
+Lorsqu’une réponse est incorrecte :
+
+1. verrouiller le champ ;
+2. jouer un son grave court ;
+3. secouer légèrement le champ ;
+4. afficher une bordure ou un halo rouge ;
+5. montrer :
+
+```text
+Ta réponse : [réponse]
+Réponse attendue : [stimulus]
+```
+
+6. diminuer le niveau ;
+7. prononcer :
+
+```text
+Échec. Nouveau niveau quatre.
+```
+
+La partie suivante commence après la fin de l’annonce vocale.
+
+Si le joueur reste au niveau 1 :
+
+```text
+Échec. Nouveau niveau un.
+```
+
+L’animation ne doit pas être agressive.
+
+Ne pas faire clignoter tout l’écran en rouge.
+
+---
+
+# 15. Sons et voix
+
+## 15.1 Effets sonores
+
+Créer les effets de réussite et d’échec avec l’API Web Audio.
+
+Cela évite d’ajouter des fichiers audio externes.
+
+Effet de réussite :
+
+* deux notes courtes ascendantes ;
+* volume modéré ;
+* durée inférieure à 400 ms.
+
+Effet d’échec :
+
+* une note courte descendante ;
+* volume modéré ;
+* durée inférieure à 400 ms.
+
+## 15.2 Voix
+
+Utiliser :
+
+```typescript
+SpeechSynthesisUtterance
+```
+
+Configurer :
+
+```typescript
+utterance.lang = "fr-FR"
+```
+
+Sélectionner de préférence une voix française disponible.
+
+La phrase doit être construite avec le nombre écrit en toutes lettres :
+
+```text
+Échec. Nouveau niveau douze.
+```
+
+Créer une fonction pour convertir les niveaux en nombres français.
+
+Le corpus peut être limité à 60 niveaux dans la première version, ce qui simplifie cette fonction.
+
+Si aucune voix française n’est disponible :
+
+* utiliser la voix par défaut ;
+* conserver le texte affiché ;
+* ne jamais bloquer la partie.
+
+Ajouter un délai de sécurité au cas où l’événement de fin de synthèse vocale ne serait pas déclenché.
+
+Réglages :
+
+* volume ;
+* effets sonores activés ou non ;
+* voix activée ou non.
+
+---
+
+# 16. Score et séries
+
+Une partie doit ressembler à un jeu et pas seulement à un exercice.
+
+## 16.1 Score
+
+Pour une bonne réponse :
+
+```text
+points = 100 + 10 × niveau actuel
+```
+
+Exemple :
+
+```text
+bonne réponse au niveau 8 :
+100 + 80 = 180 points
+```
+
+Ajouter un bonus de série :
+
+```text
+3 bonnes réponses consécutives : +50
+4 bonnes réponses consécutives : +75
+5 bonnes réponses consécutives : +100
+6 ou plus : +125
+```
+
+Une mauvaise réponse :
+
+* remet la série à zéro ;
+* ne retire pas de points.
+
+## 16.2 Affichage des séries
+
+À partir de trois bonnes réponses consécutives, afficher brièvement :
+
+```text
+Série de 3 !
+```
+
+L’affichage doit rester discret et ne pas interrompre le jeu.
+
+## 16.3 Records
+
+Conserver :
+
+* meilleur score ;
+* niveau maximal historique ;
+* meilleure série ;
+* meilleur taux de réussite sur une partie complète.
+
+---
+
+# 17. Bibliothèque de stimuli
+
+## 17.1 Principes
+
+Créer une bibliothèque importante de contenu français adapté à un enfant de 12 ans.
+
+Le contenu doit être :
+
+* naturel ;
+* correctement orthographié ;
+* fréquent ou compréhensible ;
+* non infantile ;
+* non offensant ;
+* non politique ;
+* non religieux ;
+* sans contenu sexuel ;
+* sans violence graphique ;
+* sans publicité ;
+* sans noms de marques nécessaires.
+
+Thèmes recommandés :
+
+* école ;
+* animaux ;
+* sciences ;
+* espace ;
+* nature ;
+* sport ;
+* musique ;
+* technologie ;
+* amis ;
+* famille ;
+* nourriture ;
+* voyage ;
+* aventure ;
+* humour léger ;
+* vie quotidienne.
+
+## 17.2 Types de contenu
+
+Utiliser cinq catégories :
+
+```text
+letter
+syllable
+word
+group
+sentence
+```
+
+### Niveau 1
+
+Le niveau 1 contient des lettres.
+
+Exemples :
+
+```text
+a
+G
+é
+ç
+ô
+Z
+```
+
+Utiliser toutes les lettres de l’alphabet, avec un mélange raisonnable de majuscules et de minuscules.
+
+### Niveaux 2 et 3
+
+Utiliser :
+
+* des mots courts fréquents ;
+* des syllabes fréquentes lorsqu’il n’existe pas assez de mots naturels.
+
+Exemples :
+
+```text
+de
+le
+la
+un
+où
+oui
+non
+mer
+jeu
+ami
+```
+
+Les syllabes doivent être marquées comme telles dans le corpus.
+
+### Mots
+
+Utiliser des formes réellement rencontrées en lecture :
+
+```text
+chat
+jouer
+maison
+dessiner
+ordinateur
+bibliothèque
+rapidement
+```
+
+### Groupes de mots
+
+Exemples :
+
+```text
+un grand arbre
+dans la maison
+près de la rivière
+un jeu amusant
+derrière la porte
+```
+
+### Phrases
+
+Exemples :
+
+```text
+Le chat dort.
+La pluie commence.
+Nous partons demain.
+Le bateau quitte le port.
+Une étoile traverse le ciel.
+Mon frère prépare son sac.
+```
+
+Les phrases doivent être originales.
+
+Ne pas copier des phrases issues de livres ou de manuels protégés.
+
+## 17.3 Répartition par niveau
+
+Le sélecteur doit choisir un stimulus dont le nombre de lettres correspond exactement au niveau.
+
+Répartition indicative :
+
+```text
+niveau 1 :
+lettres
+
+niveaux 2 à 4 :
+mots courts et syllabes
+
+niveaux 5 à 12 :
+principalement mots
+
+niveaux 13 à 20 :
+mots et groupes de mots
+
+niveaux 21 à 35 :
+principalement groupes de mots et petites phrases
+
+niveaux 36 à 60 :
+principalement phrases
+```
+
+Ne pas forcer cette répartition lorsqu’elle produit un stimulus artificiel.
+
+La qualité du français est prioritaire.
+
+---
+
+# 18. Taille du corpus
+
+Objectif réaliste pour la première version :
+
+```text
+niveau 1 :
+alphabet complet et variantes
+
+niveaux 2 à 20 :
+au moins 30 stimuli par niveau
+
+niveaux 21 à 40 :
+au moins 20 stimuli par niveau
+
+niveaux 41 à 60 :
+au moins 10 stimuli par niveau
+```
+
+Cela représente environ 1 200 stimuli.
+
+Ne pas générer automatiquement des chaînes de lettres aléatoires dans le mode principal.
+
+Les syllabes peuvent être utilisées pour les niveaux très courts, mais les mots et phrases naturels doivent toujours être privilégiés.
+
+---
+
+# 19. Format des données
+
+Chaque stimulus doit avoir au minimum :
+
+```json
+{
+  "id": "word_0001",
+  "text": "château",
+  "type": "word",
+  "letterCount": 7,
+  "difficulty": 7,
+  "themes": ["quotidien"],
+  "enabled": true
+}
+```
+
+Le champ `letterCount` doit être vérifié automatiquement.
+
+Les identifiants doivent être uniques et stables.
+
+Ne pas stocker inutilement une version normalisée : elle peut être calculée au chargement.
+
+---
+
+# 20. Validation du corpus
+
+Créer :
+
+```text
+scripts/validateCorpus.ts
+```
+
+Le script doit vérifier :
+
+* identifiants uniques ;
+* textes non vides ;
+* nombre de lettres correct ;
+* absence de doublons exacts ;
+* absence de doublons après normalisation ;
+* types valides ;
+* niveaux entre 1 et 60 ;
+* ponctuation correcte des phrases ;
+* présence d’au moins un stimulus par niveau ;
+* absence de caractères inattendus.
+
+Créer aussi :
+
+```text
+scripts/corpusReport.ts
+```
+
+Le rapport doit indiquer :
+
+* nombre total de stimuli ;
+* nombre par niveau ;
+* nombre par type ;
+* niveaux insuffisamment fournis ;
+* doublons ;
+* erreurs.
+
+Ajouter les commandes :
+
+```bash
+npm run validate:corpus
+npm run report:corpus
+```
+
+La construction de production doit échouer si le corpus contient une erreur bloquante.
+
+---
+
+# 21. Sélection des stimuli
+
+Lors d’une partie :
+
+* choisir un stimulus correspondant exactement au niveau ;
+* éviter de répéter le même stimulus ;
+* éviter les dix derniers stimuli vus ;
+* favoriser les stimuli non encore utilisés pendant la partie ;
+* réintroduire plus tard les stimuli ratés ;
+* ne pas représenter immédiatement le même stimulus après une erreur.
+
+Lorsqu’un niveau contient peu de stimuli, autoriser une répétition seulement après avoir parcouru tous les éléments disponibles.
+
+Le sélecteur doit être une fonction indépendante et testable.
+
+---
+
+# 22. Statistiques
+
+Sauvegarder uniquement les statistiques utiles.
+
+Pour chaque partie :
+
+```text
+date
+mode
+niveau de départ
+niveau maximal
+niveau final
+score
+nombre de réussites
+nombre d’échecs
+meilleure série
+temps moyen de réponse
+```
+
+Il n’est pas nécessaire de conserver la réponse saisie pour chaque mot dans la première version.
+
+Conserver éventuellement une liste limitée des stimuli fréquemment ratés :
+
+```text
+identifiant du stimulus
+nombre de présentations
+nombre d’erreurs
+```
+
+Limiter l’historique aux 100 dernières parties.
+
+## 22.1 Écran Résultats
+
+Afficher :
+
+* nombre de parties ;
+* meilleur score ;
+* niveau maximal ;
+* niveau stable ;
+* taux de réussite moyen ;
+* progression récente ;
+* cinq stimuli souvent ratés.
+
+La progression récente peut être affichée avec une petite courbe simple réalisée en SVG ou CSS.
+
+Ne pas ajouter de bibliothèque graphique.
+
+Ajouter :
+
+* **Exporter les résultats** ;
+* **Effacer les résultats**.
+
+L’export peut être un fichier JSON.
+
+---
+
+# 23. Réglages
+
+Créer une page simple avec :
+
+## Jeu
+
+* durée : 10, 20 ou 30 essais ;
+* vitesse : lente, normale ou rapide ;
+* démarrage adaptatif activé ou non ;
+* afficher ou non les syllabes.
+
+## Affichage
+
+* plein écran ;
+* taille du texte : normale ou grande ;
+* animations activées ou réduites ;
+* contraste élevé.
+
+## Son
+
+* effets activés ;
+* voix activée ;
+* volume.
+
+## Données
+
+* exporter les résultats ;
+* effacer les résultats ;
+* restaurer les réglages par défaut.
+
+Ne pas créer une page de réglages techniques contenant des dizaines de paramètres en millisecondes.
+
+Les valeurs précises restent dans le code.
+
+---
+
+# 24. Accessibilité
+
+Respecter les points suivants :
+
+* contraste élevé ;
+* texte large ;
+* navigation au clavier ;
+* aucun clignotement rapide ;
+* aucun effet stroboscopique ;
+* prise en compte de `prefers-reduced-motion` ;
+* possibilité de couper le son ;
+* possibilité d’utiliser une vitesse lente ;
+* aucune limite de temps pour répondre ;
+* aucun message humiliant ;
+* aucun classement public.
+
+L’application doit fonctionner uniquement au clavier pendant une partie.
+
+Touches :
+
+```text
+Entrée : valider
+Échap : pause
+F : plein écran
+M : couper ou réactiver le son
+```
+
+---
+
+# 25. Gestion du plein écran
+
+Ajouter un bouton plein écran sur l’écran d’accueil et pendant la partie.
+
+Utiliser l’API Fullscreen du navigateur.
+
+Si le plein écran n’est pas disponible, le jeu doit continuer normalement.
+
+Le plein écran ne doit jamais être activé sans une action explicite du joueur.
+
+---
+
+# 26. Style visuel
+
+Créer une identité visuelle sombre et moderne.
+
+Palette indicative :
+
+```text
+fond principal : noir bleuté
+texte : blanc cassé
+réussite : vert lumineux
+échec : rouge corail
+accent : bleu ou violet
+```
+
+Ne pas surcharger l’écran.
+
+Les boutons doivent être grands, arrondis et clairement lisibles.
+
+Utiliser des transitions courtes :
+
+```text
+150 à 300 ms pour les menus
+600 à 900 ms pour les retours de manche
+```
+
+Le stimulus lui-même ne doit pas apparaître avec une transition lente.
+
+---
+
+# 27. Tests indispensables
+
+## 27.1 Normalisation
+
+Tester notamment :
+
+```text
+École == ecole
+GARÇON == garcon
+où == ou
+cœur == coeur
+L’ÉTÉ == l'été
+```
+
+Tester aussi :
+
+* espaces multiples ;
+* apostrophes typographiques ;
+* ponctuation finale ;
+* ligatures ;
+* chaînes vides.
+
+## 27.2 Comptage
+
+Tester :
+
+```text
+à → 1
+où → 2
+l'ami → 4
+arc-en-ciel → 10
+Le chat dort. → 10
+```
+
+## 27.3 Progression
+
+Tester :
+
+```text
+niveau 1 + échec → niveau 1
+niveau 1 + réussite → niveau 2
+niveau 5 + échec → niveau 4
+niveau 5 + réussite → niveau 6
+```
+
+## 27.4 Sélection
+
+Tester :
+
+* niveau correct ;
+* stimulus activé ;
+* absence de répétition immédiate ;
+* gestion d’un niveau avec peu de contenu ;
+* réintroduction différée d’un stimulus raté.
+
+## 27.5 Interface
+
+Tester :
+
+* champ absent pendant le stimulus ;
+* champ présent après le stimulus ;
+* focus automatique ;
+* Entrée valide ;
+* réponse vide ignorée ;
+* double validation impossible ;
+* perte de focus mettant la partie en pause ;
+* fin correcte après le dernier essai ;
+* sauvegarde du résultat.
+
+---
+
+# 28. Gestion des erreurs
+
+L’application ne doit pas planter si :
+
+* la voix française n’est pas disponible ;
+* la synthèse vocale ne répond pas ;
+* le plein écran est refusé ;
+* `localStorage` est indisponible ;
+* un niveau possède peu de stimuli ;
+* un réglage sauvegardé est invalide.
+
+Dans ces cas :
+
+* utiliser une valeur par défaut ;
+* afficher une erreur discrète si nécessaire ;
+* continuer la partie lorsque cela reste possible.
+
+---
+
+# 29. Documentation
+
+Créer un `README.md` en français comprenant :
+
+* description ;
+* installation ;
+* lancement ;
+* construction ;
+* tests ;
+* structure du projet ;
+* règles du jeu ;
+* format du corpus ;
+* ajout de nouveaux stimuli ;
+* validation du corpus ;
+* fonctionnement de la voix ;
+* stockage des résultats.
+
+Créer aussi :
+
+```text
+docs/GAME_DESIGN.md
+docs/CORPUS_GUIDE.md
+```
+
+`GAME_DESIGN.md` décrit :
+
+* déroulement d’une manche ;
+* niveaux ;
+* score ;
+* progression ;
+* démarrage adaptatif.
+
+`CORPUS_GUIDE.md` décrit :
+
+* vocabulaire approprié ;
+* types de stimuli ;
+* règles de longueur ;
+* thèmes autorisés ;
+* contenus à éviter ;
+* procédure de validation.
+
+---
+
+# 30. Ordre de développement
+
+Procéder dans cet ordre.
+
+## Étape 1
+
+* déplacer le prototype dans `legacy/` ;
+* créer l’application React et TypeScript ;
+* configurer les tests et le linting.
+
+## Étape 2
+
+* créer la machine à états ;
+* afficher le point de fixation ;
+* afficher puis masquer un stimulus ;
+* afficher le champ ;
+* valider la réponse.
+
+## Étape 3
+
+* implémenter la normalisation ;
+* implémenter le comptage des lettres ;
+* écrire tous les tests correspondants.
+
+## Étape 4
+
+* implémenter les niveaux ;
+* score ;
+* séries ;
+* durée de 20 essais ;
+* écran de résultats.
+
+## Étape 5
+
+* ajouter les animations ;
+* ajouter Web Audio ;
+* ajouter la synthèse vocale française.
+
+## Étape 6
+
+* créer et valider le corpus ;
+* produire le rapport par niveau ;
+* corriger les doublons et erreurs.
+
+## Étape 7
+
+* ajouter les réglages ;
+* ajouter le stockage local ;
+* ajouter l’écran Résultats ;
+* ajouter le démarrage adaptatif.
+
+## Étape 8
+
+* tester le plein écran ;
+* tester la perte de focus ;
+* améliorer le responsive ;
+* finaliser la documentation.
+
+---
+
+# 31. Commits
+
+Créer des commits logiques, par exemple :
+
+```text
+chore: archive tkinter prototype
+feat: initialize react typescript game
+feat: implement game state machine
+feat: add answer normalization
+feat: add level and scoring system
+feat: add animations audio and speech
+feat: add French stimulus corpus
+feat: add settings and local results
+test: cover game logic and interface
+docs: document game and corpus
+```
+
+Ne pas placer tout le travail dans un seul commit.
+
+---
+
+# 32. Critères d’acceptation
+
+Le projet est terminé lorsque :
+
+1. l’application se lance sans erreur ;
+2. le prototype Python est conservé dans `legacy/` ;
+3. une partie peut être jouée entièrement au clavier ;
+4. le stimulus disparaît avant l’apparition du champ ;
+5. le champ reçoit automatiquement le focus ;
+6. le niveau correspond au nombre réel de lettres ;
+7. une bonne réponse augmente le niveau ;
+8. une mauvaise réponse diminue le niveau ;
+9. le niveau ne descend jamais sous 1 ;
+10. les accents et majuscules sont ignorés ;
+11. les véritables fautes de lettres sont refusées ;
+12. les animations de réussite et d’échec fonctionnent ;
+13. les effets sonores fonctionnent ;
+14. la voix annonce « Échec. Nouveau niveau X. » ;
+15. la partie se termine correctement après le nombre prévu d’essais ;
+16. le score et le record sont sauvegardés ;
+17. le démarrage adaptatif fonctionne après la première partie ;
+18. le corpus contient des stimuli pour tous les niveaux 1 à 60 ;
+19. le validateur du corpus passe ;
+20. les tests automatisés passent ;
+21. la perte de focus met correctement le jeu en pause ;
+22. aucune erreur importante n’apparaît dans la console ;
+23. le README explique clairement comment utiliser et modifier le projet.
+
+---
+
+# 33. Fonctions explicitement exclues
+
+Ne pas ajouter dans cette version :
+
+* compte en ligne ;
+* serveur ;
+* cloud ;
+* classement mondial ;
+* multijoueur ;
+* publicité ;
+* achat intégré ;
+* génération de phrases pendant la partie ;
+* reconnaissance vocale ;
+* intelligence artificielle embarquée ;
+* diagnostic médical ;
+* récompenses quotidiennes ;
+* notifications ;
+* système complexe de profils ;
+* personnalisation graphique avancée ;
+* éditeur de corpus intégré à l’interface.
+
+Le résultat doit être un jeu simple, robuste et plaisant, pas une plateforme surdimensionnée.

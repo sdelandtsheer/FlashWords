@@ -1,0 +1,236 @@
+[
+  {
+    "text": "a",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0001"
+  },
+  {
+    "text": "b",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0002"
+  },
+  {
+    "text": "c",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0003"
+  },
+  {
+    "text": "d",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0004"
+  },
+  {
+    "text": "e",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0005"
+  },
+  {
+    "text": "f",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0006"
+  },
+  {
+    "text": "g",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0007"
+  },
+  {
+    "text": "h",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0008"
+  },
+  {
+    "text": "i",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0009"
+  },
+  {
+    "text": "j",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0010"
+  },
+  {
+    "text": "k",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0011"
+  },
+  {
+    "text": "l",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0012"
+  },
+  {
+    "text": "m",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0013"
+  },
+  {
+    "text": "n",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0014"
+  },
+  {
+    "text": "o",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0015"
+  },
+  {
+    "text": "p",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0016"
+  },
+  {
+    "text": "q",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0017"
+  },
+  {
+    "text": "r",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0018"
+  },
+  {
+    "text": "s",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0019"
+  },
+  {
+    "text": "t",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0020"
+  },
+  {
+    "text": "u",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0021"
+  },
+  {
+    "text": "v",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0022"
+  },
+  {
+    "text": "w",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0023"
+  },
+  {
+    "text": "x",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0024"
+  },
+  {
+    "text": "y",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0025"
+  },
+  {
+    "text": "z",
+    "type": "letter",
+    "letterCount": 1,
+    "difficulty": 1,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "letter_0026"
+  }
+]

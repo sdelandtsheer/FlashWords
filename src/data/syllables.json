@@ -1,0 +1,542 @@
+[
+  {
+    "text": "ba",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0001"
+  },
+  {
+    "text": "be",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0002"
+  },
+  {
+    "text": "bi",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0003"
+  },
+  {
+    "text": "bo",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0004"
+  },
+  {
+    "text": "bu",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0005"
+  },
+  {
+    "text": "ca",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0006"
+  },
+  {
+    "text": "ce",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0007"
+  },
+  {
+    "text": "ci",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0008"
+  },
+  {
+    "text": "co",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0009"
+  },
+  {
+    "text": "cu",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0010"
+  },
+  {
+    "text": "da",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0011"
+  },
+  {
+    "text": "de",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0012"
+  },
+  {
+    "text": "di",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0013"
+  },
+  {
+    "text": "do",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0014"
+  },
+  {
+    "text": "du",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0015"
+  },
+  {
+    "text": "fa",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0016"
+  },
+  {
+    "text": "fe",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0017"
+  },
+  {
+    "text": "fi",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0018"
+  },
+  {
+    "text": "fo",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0019"
+  },
+  {
+    "text": "fu",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0020"
+  },
+  {
+    "text": "ga",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0021"
+  },
+  {
+    "text": "ge",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0022"
+  },
+  {
+    "text": "gi",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0023"
+  },
+  {
+    "text": "go",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0024"
+  },
+  {
+    "text": "gu",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0025"
+  },
+  {
+    "text": "la",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0026"
+  },
+  {
+    "text": "le",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0027"
+  },
+  {
+    "text": "li",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0028"
+  },
+  {
+    "text": "lo",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0029"
+  },
+  {
+    "text": "lu",
+    "type": "syllable",
+    "letterCount": 2,
+    "difficulty": 2,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0030"
+  },
+  {
+    "text": "bra",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0031"
+  },
+  {
+    "text": "bre",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0032"
+  },
+  {
+    "text": "bri",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0033"
+  },
+  {
+    "text": "bro",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0034"
+  },
+  {
+    "text": "bru",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0035"
+  },
+  {
+    "text": "cha",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0036"
+  },
+  {
+    "text": "che",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0037"
+  },
+  {
+    "text": "chi",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0038"
+  },
+  {
+    "text": "cho",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0039"
+  },
+  {
+    "text": "chu",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0040"
+  },
+  {
+    "text": "cla",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0041"
+  },
+  {
+    "text": "cle",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0042"
+  },
+  {
+    "text": "cli",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0043"
+  },
+  {
+    "text": "clo",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0044"
+  },
+  {
+    "text": "clu",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0045"
+  },
+  {
+    "text": "dra",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0046"
+  },
+  {
+    "text": "dre",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0047"
+  },
+  {
+    "text": "dri",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0048"
+  },
+  {
+    "text": "dro",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0049"
+  },
+  {
+    "text": "dru",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0050"
+  },
+  {
+    "text": "fra",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0051"
+  },
+  {
+    "text": "fre",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0052"
+  },
+  {
+    "text": "fri",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0053"
+  },
+  {
+    "text": "fro",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0054"
+  },
+  {
+    "text": "fru",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0055"
+  },
+  {
+    "text": "gra",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0056"
+  },
+  {
+    "text": "gre",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0057"
+  },
+  {
+    "text": "gri",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0058"
+  },
+  {
+    "text": "gro",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0059"
+  },
+  {
+    "text": "gru",
+    "type": "syllable",
+    "letterCount": 3,
+    "difficulty": 3,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "syllable_0060"
+  }
+]

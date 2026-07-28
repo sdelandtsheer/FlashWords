@@ -1,0 +1,5420 @@
+[
+  {
+    "text": "Le chat explore la forêt.",
+    "type": "sentence",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0001"
+  },
+  {
+    "text": "Le chat joue dans le parc.",
+    "type": "sentence",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0002"
+  },
+  {
+    "text": "Le chien observe le ciel.",
+    "type": "sentence",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0003"
+  },
+  {
+    "text": "Le chien prépare son sac.",
+    "type": "sentence",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0004"
+  },
+  {
+    "text": "Le renard ouvre un livre.",
+    "type": "sentence",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0005"
+  },
+  {
+    "text": "Le renard suit le chemin.",
+    "type": "sentence",
+    "letterCount": 20,
+    "difficulty": 20,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0006"
+  },
+  {
+    "text": "Le chat écoute la musique.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0007"
+  },
+  {
+    "text": "Le chat part demain matin.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0008"
+  },
+  {
+    "text": "Le chat avance sans bruit.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0009"
+  },
+  {
+    "text": "Le chien explore la forêt.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0010"
+  },
+  {
+    "text": "Le chien joue dans le parc.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0011"
+  },
+  {
+    "text": "Le renard observe le ciel.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0012"
+  },
+  {
+    "text": "Le renard prépare son sac.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0013"
+  },
+  {
+    "text": "Un oiseau observe le ciel.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0014"
+  },
+  {
+    "text": "Un oiseau prépare son sac.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0015"
+  },
+  {
+    "text": "Ma sœur écoute la musique.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["musique"],
+    "enabled": true,
+    "id": "sentence_0016"
+  },
+  {
+    "text": "Ma sœur part demain matin.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0017"
+  },
+  {
+    "text": "Ma sœur avance sans bruit.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0018"
+  },
+  {
+    "text": "Mon frère observe le ciel.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0019"
+  },
+  {
+    "text": "Mon frère prépare son sac.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0020"
+  },
+  {
+    "text": "La classe observe le ciel.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0021"
+  },
+  {
+    "text": "La classe prépare son sac.",
+    "type": "sentence",
+    "letterCount": 21,
+    "difficulty": 21,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "sentence_0022"
+  },
+  {
+    "text": "Le chat traverse le jardin.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0023"
+  },
+  {
+    "text": "Le chat regarde la rivière.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0024"
+  },
+  {
+    "text": "Le chat termine son projet.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0025"
+  },
+  {
+    "text": "Le chat attend près du port.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0026"
+  },
+  {
+    "text": "Le chat admire les étoiles.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0027"
+  },
+  {
+    "text": "Le chien écoute la musique.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0028"
+  },
+  {
+    "text": "Le chien part demain matin.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0029"
+  },
+  {
+    "text": "Le chien avance sans bruit.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0030"
+  },
+  {
+    "text": "Le renard explore la forêt.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0031"
+  },
+  {
+    "text": "Le renard joue dans le parc.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0032"
+  },
+  {
+    "text": "Un oiseau explore la forêt.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0033"
+  },
+  {
+    "text": "Un oiseau joue dans le parc.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0034"
+  },
+  {
+    "text": "Ma sœur traverse le jardin.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0035"
+  },
+  {
+    "text": "Ma sœur regarde la rivière.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0036"
+  },
+  {
+    "text": "Ma sœur termine son projet.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0037"
+  },
+  {
+    "text": "Ma sœur attend près du port.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0038"
+  },
+  {
+    "text": "Ma sœur admire les étoiles.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0039"
+  },
+  {
+    "text": "Mon frère explore la forêt.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0040"
+  },
+  {
+    "text": "Mon frère joue dans le parc.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0041"
+  },
+  {
+    "text": "La classe explore la forêt.",
+    "type": "sentence",
+    "letterCount": 22,
+    "difficulty": 22,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "sentence_0042"
+  },
+  {
+    "text": "Le chat dessine une planète.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0043"
+  },
+  {
+    "text": "Le chat cherche une réponse.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0044"
+  },
+  {
+    "text": "Le chat découvre un passage.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0045"
+  },
+  {
+    "text": "Le chien traverse le jardin.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0046"
+  },
+  {
+    "text": "Le chien regarde la rivière.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0047"
+  },
+  {
+    "text": "Le chien termine son projet.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0048"
+  },
+  {
+    "text": "Le chien attend près du port.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0049"
+  },
+  {
+    "text": "Le chien admire les étoiles.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0050"
+  },
+  {
+    "text": "Le renard écoute la musique.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0051"
+  },
+  {
+    "text": "Le renard part demain matin.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0052"
+  },
+  {
+    "text": "Le renard avance sans bruit.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0053"
+  },
+  {
+    "text": "Un oiseau écoute la musique.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0054"
+  },
+  {
+    "text": "Un oiseau part demain matin.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0055"
+  },
+  {
+    "text": "Un oiseau avance sans bruit.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0056"
+  },
+  {
+    "text": "Ma sœur dessine une planète.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0057"
+  },
+  {
+    "text": "Ma sœur cherche une réponse.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0058"
+  },
+  {
+    "text": "Ma sœur découvre un passage.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0059"
+  },
+  {
+    "text": "Mon frère écoute la musique.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["musique"],
+    "enabled": true,
+    "id": "sentence_0060"
+  },
+  {
+    "text": "Mon frère part demain matin.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0061"
+  },
+  {
+    "text": "Mon frère avance sans bruit.",
+    "type": "sentence",
+    "letterCount": 23,
+    "difficulty": 23,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0062"
+  },
+  {
+    "text": "Le chat invente une histoire.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0063"
+  },
+  {
+    "text": "Le chat apprend avec plaisir.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0064"
+  },
+  {
+    "text": "Le chien dessine une planète.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0065"
+  },
+  {
+    "text": "Le chien cherche une réponse.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0066"
+  },
+  {
+    "text": "Le chien découvre un passage.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0067"
+  },
+  {
+    "text": "Le renard traverse le jardin.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0068"
+  },
+  {
+    "text": "Le renard regarde la rivière.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0069"
+  },
+  {
+    "text": "Le renard termine son projet.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0070"
+  },
+  {
+    "text": "Le renard attend près du port.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0071"
+  },
+  {
+    "text": "Le renard admire les étoiles.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0072"
+  },
+  {
+    "text": "Un oiseau traverse le jardin.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0073"
+  },
+  {
+    "text": "Un oiseau regarde la rivière.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0074"
+  },
+  {
+    "text": "Un oiseau termine son projet.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0075"
+  },
+  {
+    "text": "Un oiseau attend près du port.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0076"
+  },
+  {
+    "text": "Un oiseau admire les étoiles.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0077"
+  },
+  {
+    "text": "Ma sœur invente une histoire.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0078"
+  },
+  {
+    "text": "Ma sœur apprend avec plaisir.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0079"
+  },
+  {
+    "text": "Mon frère traverse le jardin.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0080"
+  },
+  {
+    "text": "Mon frère regarde la rivière.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0081"
+  },
+  {
+    "text": "Mon frère termine son projet.",
+    "type": "sentence",
+    "letterCount": 24,
+    "difficulty": 24,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0082"
+  },
+  {
+    "text": "Le chat ouvre un livre ce matin.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0083"
+  },
+  {
+    "text": "Le chat suit le chemin ce matin.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0084"
+  },
+  {
+    "text": "Le chat partage une bonne idée.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0085"
+  },
+  {
+    "text": "Le chien invente une histoire.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0086"
+  },
+  {
+    "text": "Le chien apprend avec plaisir.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0087"
+  },
+  {
+    "text": "Le renard dessine une planète.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0088"
+  },
+  {
+    "text": "Le renard cherche une réponse.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0089"
+  },
+  {
+    "text": "Le renard découvre un passage.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0090"
+  },
+  {
+    "text": "Un oiseau dessine une planète.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0091"
+  },
+  {
+    "text": "Un oiseau cherche une réponse.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0092"
+  },
+  {
+    "text": "Un oiseau découvre un passage.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0093"
+  },
+  {
+    "text": "Ma sœur ouvre un livre ce matin.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "sentence_0094"
+  },
+  {
+    "text": "Ma sœur suit le chemin ce matin.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0095"
+  },
+  {
+    "text": "Ma sœur partage une bonne idée.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0096"
+  },
+  {
+    "text": "Mon frère dessine une planète.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0097"
+  },
+  {
+    "text": "Mon frère cherche une réponse.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0098"
+  },
+  {
+    "text": "Mon frère découvre un passage.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0099"
+  },
+  {
+    "text": "Notre équipe explore la forêt.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0100"
+  },
+  {
+    "text": "Notre équipe joue dans le parc.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "sentence_0101"
+  },
+  {
+    "text": "La classe dessine une planète.",
+    "type": "sentence",
+    "letterCount": 25,
+    "difficulty": 25,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0102"
+  },
+  {
+    "text": "Le chat observe le ciel ce matin.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0103"
+  },
+  {
+    "text": "Le chat prépare son sac ce matin.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0104"
+  },
+  {
+    "text": "Le chien ouvre un livre ce matin.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0105"
+  },
+  {
+    "text": "Le chien suit le chemin ce matin.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0106"
+  },
+  {
+    "text": "Le chien partage une bonne idée.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0107"
+  },
+  {
+    "text": "Le renard invente une histoire.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0108"
+  },
+  {
+    "text": "Le renard apprend avec plaisir.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0109"
+  },
+  {
+    "text": "Un oiseau invente une histoire.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0110"
+  },
+  {
+    "text": "Un oiseau apprend avec plaisir.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0111"
+  },
+  {
+    "text": "Ma sœur observe le ciel ce matin.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0112"
+  },
+  {
+    "text": "Ma sœur prépare son sac ce matin.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0113"
+  },
+  {
+    "text": "Mon frère invente une histoire.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0114"
+  },
+  {
+    "text": "Mon frère apprend avec plaisir.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0115"
+  },
+  {
+    "text": "Notre équipe écoute la musique.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "sentence_0116"
+  },
+  {
+    "text": "Notre équipe part demain matin.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "sentence_0117"
+  },
+  {
+    "text": "Notre équipe avance sans bruit.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "sentence_0118"
+  },
+  {
+    "text": "La classe invente une histoire.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "sentence_0119"
+  },
+  {
+    "text": "La classe apprend avec plaisir.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "sentence_0120"
+  },
+  {
+    "text": "Le robot ouvre un livre ce matin.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "sentence_0121"
+  },
+  {
+    "text": "Le robot suit le chemin ce matin.",
+    "type": "sentence",
+    "letterCount": 26,
+    "difficulty": 26,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0122"
+  },
+  {
+    "text": "Le chat explore la forêt ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0123"
+  },
+  {
+    "text": "Le chat joue dans le parc ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0124"
+  },
+  {
+    "text": "Le chien observe le ciel ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0125"
+  },
+  {
+    "text": "Le chien prépare son sac ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0126"
+  },
+  {
+    "text": "Le renard ouvre un livre ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0127"
+  },
+  {
+    "text": "Le renard suit le chemin ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0128"
+  },
+  {
+    "text": "Le renard partage une bonne idée.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0129"
+  },
+  {
+    "text": "Un oiseau ouvre un livre ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0130"
+  },
+  {
+    "text": "Un oiseau suit le chemin ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0131"
+  },
+  {
+    "text": "Un oiseau partage une bonne idée.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0132"
+  },
+  {
+    "text": "Ma sœur explore la forêt ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0133"
+  },
+  {
+    "text": "Ma sœur joue dans le parc ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0134"
+  },
+  {
+    "text": "Mon frère ouvre un livre ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "sentence_0135"
+  },
+  {
+    "text": "Mon frère suit le chemin ce matin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0136"
+  },
+  {
+    "text": "Mon frère partage une bonne idée.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0137"
+  },
+  {
+    "text": "Notre équipe traverse le jardin.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0138"
+  },
+  {
+    "text": "Notre équipe regarde la rivière.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0139"
+  },
+  {
+    "text": "Notre équipe termine son projet.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "sentence_0140"
+  },
+  {
+    "text": "Notre équipe attend près du port.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "sentence_0141"
+  },
+  {
+    "text": "Notre équipe admire les étoiles.",
+    "type": "sentence",
+    "letterCount": 27,
+    "difficulty": 27,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0142"
+  },
+  {
+    "text": "Le chat écoute la musique ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0143"
+  },
+  {
+    "text": "Le chat part demain matin ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0144"
+  },
+  {
+    "text": "Le chat avance sans bruit ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0145"
+  },
+  {
+    "text": "Le chien explore la forêt ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0146"
+  },
+  {
+    "text": "Le chien joue dans le parc ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0147"
+  },
+  {
+    "text": "Le renard observe le ciel ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0148"
+  },
+  {
+    "text": "Le renard prépare son sac ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0149"
+  },
+  {
+    "text": "Un oiseau observe le ciel ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0150"
+  },
+  {
+    "text": "Un oiseau prépare son sac ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0151"
+  },
+  {
+    "text": "Ma sœur écoute la musique ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["musique"],
+    "enabled": true,
+    "id": "sentence_0152"
+  },
+  {
+    "text": "Ma sœur part demain matin ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0153"
+  },
+  {
+    "text": "Ma sœur avance sans bruit ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0154"
+  },
+  {
+    "text": "Mon frère observe le ciel ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0155"
+  },
+  {
+    "text": "Mon frère prépare son sac ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0156"
+  },
+  {
+    "text": "Notre équipe dessine une planète.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0157"
+  },
+  {
+    "text": "Notre équipe cherche une réponse.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "sentence_0158"
+  },
+  {
+    "text": "Notre équipe découvre un passage.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["sport"],
+    "enabled": true,
+    "id": "sentence_0159"
+  },
+  {
+    "text": "La classe observe le ciel ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0160"
+  },
+  {
+    "text": "La classe prépare son sac ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "sentence_0161"
+  },
+  {
+    "text": "Le robot explore la forêt ce matin.",
+    "type": "sentence",
+    "letterCount": 28,
+    "difficulty": 28,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0162"
+  },
+  {
+    "text": "Le chat traverse le jardin ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0163"
+  },
+  {
+    "text": "Le chat ouvre un livre avec ses amis.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0164"
+  },
+  {
+    "text": "Le chat suit le chemin avec ses amis.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0165"
+  },
+  {
+    "text": "Le chat regarde la rivière ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0166"
+  },
+  {
+    "text": "Le chat termine son projet ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0167"
+  },
+  {
+    "text": "Le chat attend près du port ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0168"
+  },
+  {
+    "text": "Le chat admire les étoiles ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0169"
+  },
+  {
+    "text": "Le chien écoute la musique ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0170"
+  },
+  {
+    "text": "Le chien part demain matin ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0171"
+  },
+  {
+    "text": "Le chien avance sans bruit ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0172"
+  },
+  {
+    "text": "Le renard explore la forêt ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0173"
+  },
+  {
+    "text": "Le renard joue dans le parc ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0174"
+  },
+  {
+    "text": "Un oiseau explore la forêt ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0175"
+  },
+  {
+    "text": "Un oiseau joue dans le parc ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0176"
+  },
+  {
+    "text": "Ma sœur traverse le jardin ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0177"
+  },
+  {
+    "text": "Ma sœur ouvre un livre avec ses amis.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "sentence_0178"
+  },
+  {
+    "text": "Ma sœur suit le chemin avec ses amis.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0179"
+  },
+  {
+    "text": "Ma sœur regarde la rivière ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0180"
+  },
+  {
+    "text": "Ma sœur termine son projet ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0181"
+  },
+  {
+    "text": "Ma sœur attend près du port ce matin.",
+    "type": "sentence",
+    "letterCount": 29,
+    "difficulty": 29,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0182"
+  },
+  {
+    "text": "Le chat observe le ciel avec ses amis.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0183"
+  },
+  {
+    "text": "Le chat prépare son sac avec ses amis.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0184"
+  },
+  {
+    "text": "Le chat ouvre un livre avant le repas.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0185"
+  },
+  {
+    "text": "Le chat dessine une planète ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0186"
+  },
+  {
+    "text": "Le chat suit le chemin avant le repas.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0187"
+  },
+  {
+    "text": "Le chat cherche une réponse ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0188"
+  },
+  {
+    "text": "Le chat découvre un passage ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0189"
+  },
+  {
+    "text": "Le chien traverse le jardin ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0190"
+  },
+  {
+    "text": "Le chien ouvre un livre avec ses amis.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0191"
+  },
+  {
+    "text": "Le chien suit le chemin avec ses amis.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0192"
+  },
+  {
+    "text": "Le chien regarde la rivière ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0193"
+  },
+  {
+    "text": "Le chien termine son projet ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0194"
+  },
+  {
+    "text": "Le chien attend près du port ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0195"
+  },
+  {
+    "text": "Le chien admire les étoiles ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0196"
+  },
+  {
+    "text": "Le renard écoute la musique ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0197"
+  },
+  {
+    "text": "Le renard part demain matin ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0198"
+  },
+  {
+    "text": "Le renard avance sans bruit ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0199"
+  },
+  {
+    "text": "Un oiseau écoute la musique ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0200"
+  },
+  {
+    "text": "Un oiseau part demain matin ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0201"
+  },
+  {
+    "text": "Un oiseau avance sans bruit ce matin.",
+    "type": "sentence",
+    "letterCount": 30,
+    "difficulty": 30,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0202"
+  },
+  {
+    "text": "Le chat observe le ciel avant le repas.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0203"
+  },
+  {
+    "text": "Le chat prépare son sac avant le repas.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0204"
+  },
+  {
+    "text": "Le chat ouvre un livre après la classe.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0205"
+  },
+  {
+    "text": "Le chat explore la forêt avec ses amis.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0206"
+  },
+  {
+    "text": "Le chat suit le chemin après la classe.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0207"
+  },
+  {
+    "text": "Le chat invente une histoire ce matin.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0208"
+  },
+  {
+    "text": "Le chat joue dans le parc avec ses amis.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0209"
+  },
+  {
+    "text": "Le chat apprend avec plaisir ce matin.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0210"
+  },
+  {
+    "text": "Le chien observe le ciel avec ses amis.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0211"
+  },
+  {
+    "text": "Le chien prépare son sac avec ses amis.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0212"
+  },
+  {
+    "text": "Le chien ouvre un livre avant le repas.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0213"
+  },
+  {
+    "text": "Le chien dessine une planète ce matin.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0214"
+  },
+  {
+    "text": "Le chien suit le chemin avant le repas.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0215"
+  },
+  {
+    "text": "Le chien cherche une réponse ce matin.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0216"
+  },
+  {
+    "text": "Le chien découvre un passage ce matin.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0217"
+  },
+  {
+    "text": "Le renard traverse le jardin ce matin.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0218"
+  },
+  {
+    "text": "Le renard ouvre un livre avec ses amis.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0219"
+  },
+  {
+    "text": "Le renard suit le chemin avec ses amis.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0220"
+  },
+  {
+    "text": "Le renard regarde la rivière ce matin.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0221"
+  },
+  {
+    "text": "Le renard termine son projet ce matin.",
+    "type": "sentence",
+    "letterCount": 31,
+    "difficulty": 31,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0222"
+  },
+  {
+    "text": "Le chat observe le ciel après la classe.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0223"
+  },
+  {
+    "text": "Le chat prépare son sac après la classe.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0224"
+  },
+  {
+    "text": "Le chat ouvre un livre sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0225"
+  },
+  {
+    "text": "Le chat écoute la musique avec ses amis.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0226"
+  },
+  {
+    "text": "Le chat explore la forêt avant le repas.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0227"
+  },
+  {
+    "text": "Le chat suit le chemin sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0228"
+  },
+  {
+    "text": "Le chat part demain matin avec ses amis.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0229"
+  },
+  {
+    "text": "Le chat avance sans bruit avec ses amis.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0230"
+  },
+  {
+    "text": "Le chat joue dans le parc avant le repas.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0231"
+  },
+  {
+    "text": "Le chat partage une bonne idée ce matin.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0232"
+  },
+  {
+    "text": "Le chien observe le ciel avant le repas.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0233"
+  },
+  {
+    "text": "Le chien prépare son sac avant le repas.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0234"
+  },
+  {
+    "text": "Le chien ouvre un livre après la classe.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0235"
+  },
+  {
+    "text": "Le chien explore la forêt avec ses amis.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0236"
+  },
+  {
+    "text": "Le chien suit le chemin après la classe.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0237"
+  },
+  {
+    "text": "Le chien invente une histoire ce matin.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0238"
+  },
+  {
+    "text": "Le chien joue dans le parc avec ses amis.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0239"
+  },
+  {
+    "text": "Le chien apprend avec plaisir ce matin.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0240"
+  },
+  {
+    "text": "Le renard observe le ciel avec ses amis.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0241"
+  },
+  {
+    "text": "Le renard prépare son sac avec ses amis.",
+    "type": "sentence",
+    "letterCount": 32,
+    "difficulty": 32,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0242"
+  },
+  {
+    "text": "Le chat observe le ciel sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0243"
+  },
+  {
+    "text": "Le chat traverse le jardin avec ses amis.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0244"
+  },
+  {
+    "text": "Le chat prépare son sac sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0245"
+  },
+  {
+    "text": "Le chat ouvre un livre près de la rivière.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0246"
+  },
+  {
+    "text": "Le chat ouvre un livre pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0247"
+  },
+  {
+    "text": "Le chat écoute la musique avant le repas.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0248"
+  },
+  {
+    "text": "Le chat explore la forêt après la classe.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0249"
+  },
+  {
+    "text": "Le chat suit le chemin près de la rivière.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0250"
+  },
+  {
+    "text": "Le chat suit le chemin pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0251"
+  },
+  {
+    "text": "Le chat regarde la rivière avec ses amis.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0252"
+  },
+  {
+    "text": "Le chat termine son projet avec ses amis.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0253"
+  },
+  {
+    "text": "Le chat part demain matin avant le repas.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0254"
+  },
+  {
+    "text": "Le chat avance sans bruit avant le repas.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0255"
+  },
+  {
+    "text": "Le chat attend près du port avec ses amis.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0256"
+  },
+  {
+    "text": "Le chat joue dans le parc après la classe.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0257"
+  },
+  {
+    "text": "Le chat admire les étoiles avec ses amis.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0258"
+  },
+  {
+    "text": "Le chien observe le ciel après la classe.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0259"
+  },
+  {
+    "text": "Le chien prépare son sac après la classe.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0260"
+  },
+  {
+    "text": "Le chien ouvre un livre sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0261"
+  },
+  {
+    "text": "Le chien écoute la musique avec ses amis.",
+    "type": "sentence",
+    "letterCount": 33,
+    "difficulty": 33,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0262"
+  },
+  {
+    "text": "Le chat observe le ciel près de la rivière.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0263"
+  },
+  {
+    "text": "Le chat observe le ciel pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0264"
+  },
+  {
+    "text": "Le chat traverse le jardin avant le repas.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0265"
+  },
+  {
+    "text": "Le chat prépare son sac près de la rivière.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0266"
+  },
+  {
+    "text": "Le chat prépare son sac pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0267"
+  },
+  {
+    "text": "Le chat écoute la musique après la classe.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0268"
+  },
+  {
+    "text": "Le chat dessine une planète avec ses amis.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0269"
+  },
+  {
+    "text": "Le chat explore la forêt sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0270"
+  },
+  {
+    "text": "Le chat regarde la rivière avant le repas.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0271"
+  },
+  {
+    "text": "Le chat termine son projet avant le repas.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0272"
+  },
+  {
+    "text": "Le chat cherche une réponse avec ses amis.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0273"
+  },
+  {
+    "text": "Le chat découvre un passage avec ses amis.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0274"
+  },
+  {
+    "text": "Le chat part demain matin après la classe.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0275"
+  },
+  {
+    "text": "Le chat avance sans bruit après la classe.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0276"
+  },
+  {
+    "text": "Le chat attend près du port avant le repas.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0277"
+  },
+  {
+    "text": "Le chat joue dans le parc sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0278"
+  },
+  {
+    "text": "Le chat admire les étoiles avant le repas.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0279"
+  },
+  {
+    "text": "Le chien observe le ciel sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0280"
+  },
+  {
+    "text": "Le chien traverse le jardin avec ses amis.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0281"
+  },
+  {
+    "text": "Le chien prépare son sac sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 34,
+    "difficulty": 34,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0282"
+  },
+  {
+    "text": "Le chat traverse le jardin après la classe.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0283"
+  },
+  {
+    "text": "Le chat ouvre un livre dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0284"
+  },
+  {
+    "text": "Le chat écoute la musique sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0285"
+  },
+  {
+    "text": "Le chat dessine une planète avant le repas.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0286"
+  },
+  {
+    "text": "Le chat explore la forêt près de la rivière.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0287"
+  },
+  {
+    "text": "Le chat explore la forêt pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0288"
+  },
+  {
+    "text": "Le chat suit le chemin dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0289"
+  },
+  {
+    "text": "Le chat regarde la rivière après la classe.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0290"
+  },
+  {
+    "text": "Le chat invente une histoire avec ses amis.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0291"
+  },
+  {
+    "text": "Le chat termine son projet après la classe.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0292"
+  },
+  {
+    "text": "Le chat cherche une réponse avant le repas.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0293"
+  },
+  {
+    "text": "Le chat découvre un passage avant le repas.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0294"
+  },
+  {
+    "text": "Le chat part demain matin sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0295"
+  },
+  {
+    "text": "Le chat avance sans bruit sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0296"
+  },
+  {
+    "text": "Le chat attend près du port après la classe.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0297"
+  },
+  {
+    "text": "Le chat joue dans le parc près de la rivière.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0298"
+  },
+  {
+    "text": "Le chat joue dans le parc pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0299"
+  },
+  {
+    "text": "Le chat apprend avec plaisir avec ses amis.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0300"
+  },
+  {
+    "text": "Le chat admire les étoiles après la classe.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0301"
+  },
+  {
+    "text": "Le chien observe le ciel près de la rivière.",
+    "type": "sentence",
+    "letterCount": 35,
+    "difficulty": 35,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0302"
+  },
+  {
+    "text": "Le chat observe le ciel dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0303"
+  },
+  {
+    "text": "Le chat traverse le jardin sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0304"
+  },
+  {
+    "text": "Le chat prépare son sac dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0305"
+  },
+  {
+    "text": "Le chat écoute la musique près de la rivière.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0306"
+  },
+  {
+    "text": "Le chat écoute la musique pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0307"
+  },
+  {
+    "text": "Le chat dessine une planète après la classe.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0308"
+  },
+  {
+    "text": "Le chat regarde la rivière sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0309"
+  },
+  {
+    "text": "Le chat invente une histoire avant le repas.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0310"
+  },
+  {
+    "text": "Le chat termine son projet sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0311"
+  },
+  {
+    "text": "Le chat cherche une réponse après la classe.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0312"
+  },
+  {
+    "text": "Le chat découvre un passage après la classe.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0313"
+  },
+  {
+    "text": "Le chat part demain matin près de la rivière.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0314"
+  },
+  {
+    "text": "Le chat part demain matin pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0315"
+  },
+  {
+    "text": "Le chat avance sans bruit près de la rivière.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0316"
+  },
+  {
+    "text": "Le chat avance sans bruit pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0317"
+  },
+  {
+    "text": "Le chat attend près du port sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0318"
+  },
+  {
+    "text": "Le chat apprend avec plaisir avant le repas.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0319"
+  },
+  {
+    "text": "Le chat partage une bonne idée avec ses amis.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0320"
+  },
+  {
+    "text": "Le chat admire les étoiles sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0321"
+  },
+  {
+    "text": "Le chien traverse le jardin après la classe.",
+    "type": "sentence",
+    "letterCount": 36,
+    "difficulty": 36,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0322"
+  },
+  {
+    "text": "Le chat traverse le jardin près de la rivière.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0323"
+  },
+  {
+    "text": "Le chat traverse le jardin pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0324"
+  },
+  {
+    "text": "Le chat ouvre un livre avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0325"
+  },
+  {
+    "text": "Le chat dessine une planète sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0326"
+  },
+  {
+    "text": "Le chat explore la forêt dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0327"
+  },
+  {
+    "text": "Le chat suit le chemin avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0328"
+  },
+  {
+    "text": "Le chat regarde la rivière près de la rivière.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0329"
+  },
+  {
+    "text": "Le chat regarde la rivière pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0330"
+  },
+  {
+    "text": "Le chat invente une histoire après la classe.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0331"
+  },
+  {
+    "text": "Le chat termine son projet près de la rivière.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0332"
+  },
+  {
+    "text": "Le chat termine son projet pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0333"
+  },
+  {
+    "text": "Le chat cherche une réponse sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0334"
+  },
+  {
+    "text": "Le chat découvre un passage sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0335"
+  },
+  {
+    "text": "Le chat attend près du port près de la rivière.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0336"
+  },
+  {
+    "text": "Le chat attend près du port pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0337"
+  },
+  {
+    "text": "Le chat joue dans le parc dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0338"
+  },
+  {
+    "text": "Le chat apprend avec plaisir après la classe.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0339"
+  },
+  {
+    "text": "Le chat partage une bonne idée avant le repas.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0340"
+  },
+  {
+    "text": "Le chat admire les étoiles près de la rivière.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0341"
+  },
+  {
+    "text": "Le chat admire les étoiles pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 37,
+    "difficulty": 37,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0342"
+  },
+  {
+    "text": "Le chat observe le ciel avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0343"
+  },
+  {
+    "text": "Le chat prépare son sac avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0344"
+  },
+  {
+    "text": "Le chat écoute la musique dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0345"
+  },
+  {
+    "text": "Le chat dessine une planète près de la rivière.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0346"
+  },
+  {
+    "text": "Le chat dessine une planète pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0347"
+  },
+  {
+    "text": "Le chat invente une histoire sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0348"
+  },
+  {
+    "text": "Le chat cherche une réponse près de la rivière.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0349"
+  },
+  {
+    "text": "Le chat cherche une réponse pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0350"
+  },
+  {
+    "text": "Le chat découvre un passage près de la rivière.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0351"
+  },
+  {
+    "text": "Le chat découvre un passage pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0352"
+  },
+  {
+    "text": "Le chat part demain matin dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0353"
+  },
+  {
+    "text": "Le chat avance sans bruit dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0354"
+  },
+  {
+    "text": "Le chat apprend avec plaisir sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0355"
+  },
+  {
+    "text": "Le chat partage une bonne idée après la classe.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0356"
+  },
+  {
+    "text": "Le chien traverse le jardin près de la rivière.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0357"
+  },
+  {
+    "text": "Le chien traverse le jardin pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0358"
+  },
+  {
+    "text": "Le chien ouvre un livre avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0359"
+  },
+  {
+    "text": "Le chien dessine une planète sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0360"
+  },
+  {
+    "text": "Le chien explore la forêt dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0361"
+  },
+  {
+    "text": "Le chien suit le chemin avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 38,
+    "difficulty": 38,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0362"
+  },
+  {
+    "text": "Le chat traverse le jardin dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0363"
+  },
+  {
+    "text": "Le chat explore la forêt avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0364"
+  },
+  {
+    "text": "Le chat regarde la rivière dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0365"
+  },
+  {
+    "text": "Le chat invente une histoire près de la rivière.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0366"
+  },
+  {
+    "text": "Le chat invente une histoire pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0367"
+  },
+  {
+    "text": "Le chat termine son projet dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0368"
+  },
+  {
+    "text": "Le chat attend près du port dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0369"
+  },
+  {
+    "text": "Le chat joue dans le parc avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0370"
+  },
+  {
+    "text": "Le chat apprend avec plaisir près de la rivière.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0371"
+  },
+  {
+    "text": "Le chat apprend avec plaisir pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0372"
+  },
+  {
+    "text": "Le chat partage une bonne idée sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0373"
+  },
+  {
+    "text": "Le chat admire les étoiles dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0374"
+  },
+  {
+    "text": "Le chien observe le ciel avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0375"
+  },
+  {
+    "text": "Le chien prépare son sac avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0376"
+  },
+  {
+    "text": "Le chien écoute la musique dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0377"
+  },
+  {
+    "text": "Le chien dessine une planète près de la rivière.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0378"
+  },
+  {
+    "text": "Le chien dessine une planète pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0379"
+  },
+  {
+    "text": "Le chien invente une histoire sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0380"
+  },
+  {
+    "text": "Le chien cherche une réponse près de la rivière.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0381"
+  },
+  {
+    "text": "Le chien cherche une réponse pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 39,
+    "difficulty": 39,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0382"
+  },
+  {
+    "text": "Le chat écoute la musique avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0383"
+  },
+  {
+    "text": "Le chat dessine une planète dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0384"
+  },
+  {
+    "text": "Le chat cherche une réponse dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0385"
+  },
+  {
+    "text": "Le chat découvre un passage dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0386"
+  },
+  {
+    "text": "Le chat part demain matin avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0387"
+  },
+  {
+    "text": "Le chat avance sans bruit avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0388"
+  },
+  {
+    "text": "Le chat partage une bonne idée près de la rivière.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0389"
+  },
+  {
+    "text": "Le chat partage une bonne idée pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0390"
+  },
+  {
+    "text": "Le chien traverse le jardin dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0391"
+  },
+  {
+    "text": "Le chien explore la forêt avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0392"
+  },
+  {
+    "text": "Le chien regarde la rivière dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0393"
+  },
+  {
+    "text": "Le chien invente une histoire près de la rivière.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0394"
+  },
+  {
+    "text": "Le chien invente une histoire pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0395"
+  },
+  {
+    "text": "Le chien termine son projet dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0396"
+  },
+  {
+    "text": "Le chien attend près du port dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0397"
+  },
+  {
+    "text": "Le chien joue dans le parc avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0398"
+  },
+  {
+    "text": "Le chien apprend avec plaisir près de la rivière.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0399"
+  },
+  {
+    "text": "Le chien apprend avec plaisir pendant le voyage.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0400"
+  },
+  {
+    "text": "Le chien partage une bonne idée sous un ciel bleu.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0401"
+  },
+  {
+    "text": "Le chien admire les étoiles dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 40,
+    "difficulty": 40,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0402"
+  },
+  {
+    "text": "Le chat traverse le jardin avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 41,
+    "difficulty": 41,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0403"
+  },
+  {
+    "text": "Le chat regarde la rivière avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 41,
+    "difficulty": 41,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0404"
+  },
+  {
+    "text": "Le chat invente une histoire dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 41,
+    "difficulty": 41,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0405"
+  },
+  {
+    "text": "Le chat termine son projet avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 41,
+    "difficulty": 41,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0406"
+  },
+  {
+    "text": "Le chat attend près du port avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 41,
+    "difficulty": 41,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0407"
+  },
+  {
+    "text": "Le chat apprend avec plaisir dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 41,
+    "difficulty": 41,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0408"
+  },
+  {
+    "text": "Le chat admire les étoiles avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 41,
+    "difficulty": 41,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0409"
+  },
+  {
+    "text": "Le chien écoute la musique avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 41,
+    "difficulty": 41,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0410"
+  },
+  {
+    "text": "Le chien dessine une planète dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 41,
+    "difficulty": 41,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0411"
+  },
+  {
+    "text": "Le chien cherche une réponse dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 41,
+    "difficulty": 41,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0412"
+  },
+  {
+    "text": "Le chat dessine une planète avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 42,
+    "difficulty": 42,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0413"
+  },
+  {
+    "text": "Le chat cherche une réponse avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 42,
+    "difficulty": 42,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0414"
+  },
+  {
+    "text": "Le chat découvre un passage avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 42,
+    "difficulty": 42,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0415"
+  },
+  {
+    "text": "Le chat partage une bonne idée dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 42,
+    "difficulty": 42,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0416"
+  },
+  {
+    "text": "Le chien traverse le jardin avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 42,
+    "difficulty": 42,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0417"
+  },
+  {
+    "text": "Le chien regarde la rivière avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 42,
+    "difficulty": 42,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0418"
+  },
+  {
+    "text": "Le chien invente une histoire dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 42,
+    "difficulty": 42,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0419"
+  },
+  {
+    "text": "Le chien termine son projet avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 42,
+    "difficulty": 42,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0420"
+  },
+  {
+    "text": "Le chien attend près du port avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 42,
+    "difficulty": 42,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0421"
+  },
+  {
+    "text": "Le chien apprend avec plaisir dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 42,
+    "difficulty": 42,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0422"
+  },
+  {
+    "text": "Le chat invente une histoire avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 43,
+    "difficulty": 43,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0423"
+  },
+  {
+    "text": "Le chat apprend avec plaisir avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 43,
+    "difficulty": 43,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0424"
+  },
+  {
+    "text": "Le chien dessine une planète avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 43,
+    "difficulty": 43,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0425"
+  },
+  {
+    "text": "Le chien cherche une réponse avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 43,
+    "difficulty": 43,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0426"
+  },
+  {
+    "text": "Le chien découvre un passage avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 43,
+    "difficulty": 43,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0427"
+  },
+  {
+    "text": "Le chien partage une bonne idée dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 43,
+    "difficulty": 43,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0428"
+  },
+  {
+    "text": "Le renard traverse le jardin avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 43,
+    "difficulty": 43,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0429"
+  },
+  {
+    "text": "Le renard regarde la rivière avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 43,
+    "difficulty": 43,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0430"
+  },
+  {
+    "text": "Le renard invente une histoire dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 43,
+    "difficulty": 43,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0431"
+  },
+  {
+    "text": "Le renard termine son projet avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 43,
+    "difficulty": 43,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0432"
+  },
+  {
+    "text": "Le chat partage une bonne idée avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 44,
+    "difficulty": 44,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0433"
+  },
+  {
+    "text": "Le chien invente une histoire avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 44,
+    "difficulty": 44,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0434"
+  },
+  {
+    "text": "Le chien apprend avec plaisir avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 44,
+    "difficulty": 44,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0435"
+  },
+  {
+    "text": "Le renard dessine une planète avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 44,
+    "difficulty": 44,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0436"
+  },
+  {
+    "text": "Le renard cherche une réponse avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 44,
+    "difficulty": 44,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0437"
+  },
+  {
+    "text": "Le renard découvre un passage avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 44,
+    "difficulty": 44,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0438"
+  },
+  {
+    "text": "Le renard partage une bonne idée dans le grand jardin.",
+    "type": "sentence",
+    "letterCount": 44,
+    "difficulty": 44,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0439"
+  },
+  {
+    "text": "Un oiseau dessine une planète avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 44,
+    "difficulty": 44,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0440"
+  },
+  {
+    "text": "Un oiseau cherche une réponse avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 44,
+    "difficulty": 44,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0441"
+  },
+  {
+    "text": "Un oiseau découvre un passage avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 44,
+    "difficulty": 44,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0442"
+  },
+  {
+    "text": "Le chat ouvre un livre en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 45,
+    "difficulty": 45,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0443"
+  },
+  {
+    "text": "Le chat suit le chemin en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 45,
+    "difficulty": 45,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0444"
+  },
+  {
+    "text": "Le chien partage une bonne idée avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 45,
+    "difficulty": 45,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0445"
+  },
+  {
+    "text": "Le renard invente une histoire avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 45,
+    "difficulty": 45,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0446"
+  },
+  {
+    "text": "Le renard apprend avec plaisir avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 45,
+    "difficulty": 45,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0447"
+  },
+  {
+    "text": "Un oiseau invente une histoire avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 45,
+    "difficulty": 45,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0448"
+  },
+  {
+    "text": "Un oiseau apprend avec plaisir avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 45,
+    "difficulty": 45,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0449"
+  },
+  {
+    "text": "Ma sœur ouvre un livre en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 45,
+    "difficulty": 45,
+    "themes": ["école"],
+    "enabled": true,
+    "id": "sentence_0450"
+  },
+  {
+    "text": "Ma sœur suit le chemin en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 45,
+    "difficulty": 45,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0451"
+  },
+  {
+    "text": "Mon frère invente une histoire avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 45,
+    "difficulty": 45,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0452"
+  },
+  {
+    "text": "Le chat observe le ciel en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 46,
+    "difficulty": 46,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0453"
+  },
+  {
+    "text": "Le chat prépare son sac en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 46,
+    "difficulty": 46,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0454"
+  },
+  {
+    "text": "Le chien ouvre un livre en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 46,
+    "difficulty": 46,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0455"
+  },
+  {
+    "text": "Le chien suit le chemin en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 46,
+    "difficulty": 46,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0456"
+  },
+  {
+    "text": "Le renard partage une bonne idée avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 46,
+    "difficulty": 46,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0457"
+  },
+  {
+    "text": "Un oiseau partage une bonne idée avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 46,
+    "difficulty": 46,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0458"
+  },
+  {
+    "text": "Ma sœur observe le ciel en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 46,
+    "difficulty": 46,
+    "themes": ["espace"],
+    "enabled": true,
+    "id": "sentence_0459"
+  },
+  {
+    "text": "Ma sœur prépare son sac en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 46,
+    "difficulty": 46,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0460"
+  },
+  {
+    "text": "Mon frère partage une bonne idée avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 46,
+    "difficulty": 46,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0461"
+  },
+  {
+    "text": "Notre équipe traverse le jardin avec beaucoup de calme.",
+    "type": "sentence",
+    "letterCount": 46,
+    "difficulty": 46,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0462"
+  },
+  {
+    "text": "Le chat explore la forêt en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 47,
+    "difficulty": 47,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0463"
+  },
+  {
+    "text": "Le chat joue dans le parc en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 47,
+    "difficulty": 47,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0464"
+  },
+  {
+    "text": "Le chien observe le ciel en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 47,
+    "difficulty": 47,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0465"
+  },
+  {
+    "text": "Le chien prépare son sac en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 47,
+    "difficulty": 47,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0466"
+  },
+  {
+    "text": "Le renard ouvre un livre en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 47,
+    "difficulty": 47,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0467"
+  },
+  {
+    "text": "Le renard suit le chemin en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 47,
+    "difficulty": 47,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0468"
+  },
+  {
+    "text": "Un oiseau ouvre un livre en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 47,
+    "difficulty": 47,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0469"
+  },
+  {
+    "text": "Un oiseau suit le chemin en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 47,
+    "difficulty": 47,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0470"
+  },
+  {
+    "text": "Ma sœur explore la forêt en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 47,
+    "difficulty": 47,
+    "themes": ["nature"],
+    "enabled": true,
+    "id": "sentence_0471"
+  },
+  {
+    "text": "Ma sœur joue dans le parc en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 47,
+    "difficulty": 47,
+    "themes": ["quotidien"],
+    "enabled": true,
+    "id": "sentence_0472"
+  },
+  {
+    "text": "Le chat écoute la musique en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 48,
+    "difficulty": 48,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0473"
+  },
+  {
+    "text": "Le chat part demain matin en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 48,
+    "difficulty": 48,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0474"
+  },
+  {
+    "text": "Le chat avance sans bruit en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 48,
+    "difficulty": 48,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0475"
+  },
+  {
+    "text": "Le chien explore la forêt en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 48,
+    "difficulty": 48,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0476"
+  },
+  {
+    "text": "Le chien joue dans le parc en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 48,
+    "difficulty": 48,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0477"
+  },
+  {
+    "text": "Le renard observe le ciel en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 48,
+    "difficulty": 48,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0478"
+  },
+  {
+    "text": "Le renard prépare son sac en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 48,
+    "difficulty": 48,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0479"
+  },
+  {
+    "text": "Un oiseau observe le ciel en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 48,
+    "difficulty": 48,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0480"
+  },
+  {
+    "text": "Un oiseau prépare son sac en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 48,
+    "difficulty": 48,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0481"
+  },
+  {
+    "text": "Ma sœur écoute la musique en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 48,
+    "difficulty": 48,
+    "themes": ["musique"],
+    "enabled": true,
+    "id": "sentence_0482"
+  },
+  {
+    "text": "Le chat traverse le jardin en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 49,
+    "difficulty": 49,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0483"
+  },
+  {
+    "text": "Le chat regarde la rivière en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 49,
+    "difficulty": 49,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0484"
+  },
+  {
+    "text": "Le chat termine son projet en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 49,
+    "difficulty": 49,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0485"
+  },
+  {
+    "text": "Le chat attend près du port en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 49,
+    "difficulty": 49,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0486"
+  },
+  {
+    "text": "Le chat admire les étoiles en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 49,
+    "difficulty": 49,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0487"
+  },
+  {
+    "text": "Le chien écoute la musique en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 49,
+    "difficulty": 49,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0488"
+  },
+  {
+    "text": "Le chien part demain matin en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 49,
+    "difficulty": 49,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0489"
+  },
+  {
+    "text": "Le chien avance sans bruit en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 49,
+    "difficulty": 49,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0490"
+  },
+  {
+    "text": "Le renard explore la forêt en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 49,
+    "difficulty": 49,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0491"
+  },
+  {
+    "text": "Le renard joue dans le parc en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 49,
+    "difficulty": 49,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0492"
+  },
+  {
+    "text": "Le chat ouvre un livre sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 50,
+    "difficulty": 50,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0493"
+  },
+  {
+    "text": "Le chat dessine une planète en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 50,
+    "difficulty": 50,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0494"
+  },
+  {
+    "text": "Le chat suit le chemin sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 50,
+    "difficulty": 50,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0495"
+  },
+  {
+    "text": "Le chat cherche une réponse en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 50,
+    "difficulty": 50,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0496"
+  },
+  {
+    "text": "Le chat découvre un passage en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 50,
+    "difficulty": 50,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0497"
+  },
+  {
+    "text": "Le chien traverse le jardin en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 50,
+    "difficulty": 50,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0498"
+  },
+  {
+    "text": "Le chien regarde la rivière en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 50,
+    "difficulty": 50,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0499"
+  },
+  {
+    "text": "Le chien termine son projet en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 50,
+    "difficulty": 50,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0500"
+  },
+  {
+    "text": "Le chien attend près du port en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 50,
+    "difficulty": 50,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0501"
+  },
+  {
+    "text": "Le chien admire les étoiles en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 50,
+    "difficulty": 50,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0502"
+  },
+  {
+    "text": "Le chat observe le ciel sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 51,
+    "difficulty": 51,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0503"
+  },
+  {
+    "text": "Le chat prépare son sac sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 51,
+    "difficulty": 51,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0504"
+  },
+  {
+    "text": "Le chat invente une histoire en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 51,
+    "difficulty": 51,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0505"
+  },
+  {
+    "text": "Le chat apprend avec plaisir en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 51,
+    "difficulty": 51,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0506"
+  },
+  {
+    "text": "Le chien ouvre un livre sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 51,
+    "difficulty": 51,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0507"
+  },
+  {
+    "text": "Le chien dessine une planète en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 51,
+    "difficulty": 51,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0508"
+  },
+  {
+    "text": "Le chien suit le chemin sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 51,
+    "difficulty": 51,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0509"
+  },
+  {
+    "text": "Le chien cherche une réponse en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 51,
+    "difficulty": 51,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0510"
+  },
+  {
+    "text": "Le chien découvre un passage en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 51,
+    "difficulty": 51,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0511"
+  },
+  {
+    "text": "Le renard traverse le jardin en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 51,
+    "difficulty": 51,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0512"
+  },
+  {
+    "text": "Le chat explore la forêt sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 52,
+    "difficulty": 52,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0513"
+  },
+  {
+    "text": "Le chat joue dans le parc sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 52,
+    "difficulty": 52,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0514"
+  },
+  {
+    "text": "Le chat partage une bonne idée en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 52,
+    "difficulty": 52,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0515"
+  },
+  {
+    "text": "Le chien observe le ciel sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 52,
+    "difficulty": 52,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0516"
+  },
+  {
+    "text": "Le chien prépare son sac sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 52,
+    "difficulty": 52,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0517"
+  },
+  {
+    "text": "Le chien invente une histoire en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 52,
+    "difficulty": 52,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0518"
+  },
+  {
+    "text": "Le chien apprend avec plaisir en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 52,
+    "difficulty": 52,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0519"
+  },
+  {
+    "text": "Le renard ouvre un livre sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 52,
+    "difficulty": 52,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0520"
+  },
+  {
+    "text": "Le renard dessine une planète en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 52,
+    "difficulty": 52,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0521"
+  },
+  {
+    "text": "Le renard suit le chemin sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 52,
+    "difficulty": 52,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0522"
+  },
+  {
+    "text": "Le chat écoute la musique sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 53,
+    "difficulty": 53,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0523"
+  },
+  {
+    "text": "Le chat part demain matin sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 53,
+    "difficulty": 53,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0524"
+  },
+  {
+    "text": "Le chat avance sans bruit sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 53,
+    "difficulty": 53,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0525"
+  },
+  {
+    "text": "Le chien explore la forêt sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 53,
+    "difficulty": 53,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0526"
+  },
+  {
+    "text": "Le chien joue dans le parc sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 53,
+    "difficulty": 53,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0527"
+  },
+  {
+    "text": "Le chien partage une bonne idée en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 53,
+    "difficulty": 53,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0528"
+  },
+  {
+    "text": "Le renard observe le ciel sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 53,
+    "difficulty": 53,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0529"
+  },
+  {
+    "text": "Le renard prépare son sac sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 53,
+    "difficulty": 53,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0530"
+  },
+  {
+    "text": "Le renard invente une histoire en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 53,
+    "difficulty": 53,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0531"
+  },
+  {
+    "text": "Le renard apprend avec plaisir en prenant le temps de réfléchir.",
+    "type": "sentence",
+    "letterCount": 53,
+    "difficulty": 53,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0532"
+  },
+  {
+    "text": "Le chat traverse le jardin sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 54,
+    "difficulty": 54,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0533"
+  },
+  {
+    "text": "Le chat regarde la rivière sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 54,
+    "difficulty": 54,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0534"
+  },
+  {
+    "text": "Le chat termine son projet sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 54,
+    "difficulty": 54,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0535"
+  },
+  {
+    "text": "Le chat attend près du port sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 54,
+    "difficulty": 54,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0536"
+  },
+  {
+    "text": "Le chat admire les étoiles sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 54,
+    "difficulty": 54,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0537"
+  },
+  {
+    "text": "Le chien écoute la musique sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 54,
+    "difficulty": 54,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0538"
+  },
+  {
+    "text": "Le chien part demain matin sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 54,
+    "difficulty": 54,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0539"
+  },
+  {
+    "text": "Le chien avance sans bruit sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 54,
+    "difficulty": 54,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0540"
+  },
+  {
+    "text": "Le renard explore la forêt sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 54,
+    "difficulty": 54,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0541"
+  },
+  {
+    "text": "Le renard joue dans le parc sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 54,
+    "difficulty": 54,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0542"
+  },
+  {
+    "text": "Le chat ouvre un livre avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 55,
+    "difficulty": 55,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0543"
+  },
+  {
+    "text": "Le chat dessine une planète sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 55,
+    "difficulty": 55,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0544"
+  },
+  {
+    "text": "Le chat suit le chemin avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 55,
+    "difficulty": 55,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0545"
+  },
+  {
+    "text": "Le chat cherche une réponse sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 55,
+    "difficulty": 55,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0546"
+  },
+  {
+    "text": "Le chat découvre un passage sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 55,
+    "difficulty": 55,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0547"
+  },
+  {
+    "text": "Le chien traverse le jardin sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 55,
+    "difficulty": 55,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0548"
+  },
+  {
+    "text": "Le chien regarde la rivière sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 55,
+    "difficulty": 55,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0549"
+  },
+  {
+    "text": "Le chien termine son projet sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 55,
+    "difficulty": 55,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0550"
+  },
+  {
+    "text": "Le chien attend près du port sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 55,
+    "difficulty": 55,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0551"
+  },
+  {
+    "text": "Le chien admire les étoiles sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 55,
+    "difficulty": 55,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0552"
+  },
+  {
+    "text": "Le chat observe le ciel avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 56,
+    "difficulty": 56,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0553"
+  },
+  {
+    "text": "Le chat prépare son sac avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 56,
+    "difficulty": 56,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0554"
+  },
+  {
+    "text": "Le chat ouvre un livre pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 56,
+    "difficulty": 56,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0555"
+  },
+  {
+    "text": "Le chat suit le chemin pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 56,
+    "difficulty": 56,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0556"
+  },
+  {
+    "text": "Le chat invente une histoire sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 56,
+    "difficulty": 56,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0557"
+  },
+  {
+    "text": "Le chat apprend avec plaisir sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 56,
+    "difficulty": 56,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0558"
+  },
+  {
+    "text": "Le chien ouvre un livre avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 56,
+    "difficulty": 56,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0559"
+  },
+  {
+    "text": "Le chien dessine une planète sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 56,
+    "difficulty": 56,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0560"
+  },
+  {
+    "text": "Le chien suit le chemin avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 56,
+    "difficulty": 56,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0561"
+  },
+  {
+    "text": "Le chien cherche une réponse sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 56,
+    "difficulty": 56,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0562"
+  },
+  {
+    "text": "Le chat observe le ciel pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 57,
+    "difficulty": 57,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0563"
+  },
+  {
+    "text": "Le chat prépare son sac pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 57,
+    "difficulty": 57,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0564"
+  },
+  {
+    "text": "Le chat explore la forêt avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 57,
+    "difficulty": 57,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0565"
+  },
+  {
+    "text": "Le chat joue dans le parc avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 57,
+    "difficulty": 57,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0566"
+  },
+  {
+    "text": "Le chat partage une bonne idée sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 57,
+    "difficulty": 57,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0567"
+  },
+  {
+    "text": "Le chien observe le ciel avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 57,
+    "difficulty": 57,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0568"
+  },
+  {
+    "text": "Le chien prépare son sac avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 57,
+    "difficulty": 57,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0569"
+  },
+  {
+    "text": "Le chien ouvre un livre pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 57,
+    "difficulty": 57,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0570"
+  },
+  {
+    "text": "Le chien suit le chemin pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 57,
+    "difficulty": 57,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0571"
+  },
+  {
+    "text": "Le chien invente une histoire sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 57,
+    "difficulty": 57,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0572"
+  },
+  {
+    "text": "Le chat écoute la musique avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 58,
+    "difficulty": 58,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0573"
+  },
+  {
+    "text": "Le chat explore la forêt pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 58,
+    "difficulty": 58,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0574"
+  },
+  {
+    "text": "Le chat part demain matin avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 58,
+    "difficulty": 58,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0575"
+  },
+  {
+    "text": "Le chat avance sans bruit avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 58,
+    "difficulty": 58,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0576"
+  },
+  {
+    "text": "Le chat joue dans le parc pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 58,
+    "difficulty": 58,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0577"
+  },
+  {
+    "text": "Le chien observe le ciel pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 58,
+    "difficulty": 58,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0578"
+  },
+  {
+    "text": "Le chien prépare son sac pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 58,
+    "difficulty": 58,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0579"
+  },
+  {
+    "text": "Le chien explore la forêt avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 58,
+    "difficulty": 58,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0580"
+  },
+  {
+    "text": "Le chien joue dans le parc avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 58,
+    "difficulty": 58,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0581"
+  },
+  {
+    "text": "Le chien partage une bonne idée sans oublier les conseils de la classe.",
+    "type": "sentence",
+    "letterCount": 58,
+    "difficulty": 58,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0582"
+  },
+  {
+    "text": "Le chat traverse le jardin avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 59,
+    "difficulty": 59,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0583"
+  },
+  {
+    "text": "Le chat écoute la musique pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 59,
+    "difficulty": 59,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0584"
+  },
+  {
+    "text": "Le chat regarde la rivière avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 59,
+    "difficulty": 59,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0585"
+  },
+  {
+    "text": "Le chat termine son projet avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 59,
+    "difficulty": 59,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0586"
+  },
+  {
+    "text": "Le chat part demain matin pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 59,
+    "difficulty": 59,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0587"
+  },
+  {
+    "text": "Le chat avance sans bruit pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 59,
+    "difficulty": 59,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0588"
+  },
+  {
+    "text": "Le chat attend près du port avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 59,
+    "difficulty": 59,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0589"
+  },
+  {
+    "text": "Le chat admire les étoiles avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 59,
+    "difficulty": 59,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0590"
+  },
+  {
+    "text": "Le chien écoute la musique avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 59,
+    "difficulty": 59,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0591"
+  },
+  {
+    "text": "Le chien explore la forêt pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 59,
+    "difficulty": 59,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0592"
+  },
+  {
+    "text": "Le chat traverse le jardin pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 60,
+    "difficulty": 60,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0593"
+  },
+  {
+    "text": "Le chat ouvre un livre en suivant attentivement toutes les indications.",
+    "type": "sentence",
+    "letterCount": 60,
+    "difficulty": 60,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0594"
+  },
+  {
+    "text": "Le chat dessine une planète avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 60,
+    "difficulty": 60,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0595"
+  },
+  {
+    "text": "Le chat suit le chemin en suivant attentivement toutes les indications.",
+    "type": "sentence",
+    "letterCount": 60,
+    "difficulty": 60,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0596"
+  },
+  {
+    "text": "Le chat regarde la rivière pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 60,
+    "difficulty": 60,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0597"
+  },
+  {
+    "text": "Le chat termine son projet pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 60,
+    "difficulty": 60,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0598"
+  },
+  {
+    "text": "Le chat cherche une réponse avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 60,
+    "difficulty": 60,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0599"
+  },
+  {
+    "text": "Le chat découvre un passage avec une énergie vraiment impressionnante.",
+    "type": "sentence",
+    "letterCount": 60,
+    "difficulty": 60,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0600"
+  },
+  {
+    "text": "Le chat attend près du port pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 60,
+    "difficulty": 60,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0601"
+  },
+  {
+    "text": "Le chat admire les étoiles pendant que les autres préparent le matériel.",
+    "type": "sentence",
+    "letterCount": 60,
+    "difficulty": 60,
+    "themes": ["animaux"],
+    "enabled": true,
+    "id": "sentence_0602"
+  }
+]
