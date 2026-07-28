@@ -7,10 +7,12 @@ Speed-reading / recall trainer with fixation point (white dot).
 - Entry field at bottom to type the word from memory.
 - Press Enter to validate (shows green if correct, red if not).
 - Press Space to go to next word (beeps + flash again).
+- Press B to re-flash the SAME word immediately (no index advance).
+- Press T to show the French translation of the current word (no index advance).
 
 NOTE:
 - We bind Enter and KP_Enter directly on the Entry widget for reliability.
-- Space is also bound on Entry so it triggers "next" without inserting a space.
+- Space, B, and T are also bound on Entry so they trigger actions without inserting characters.
 """
 
 import random
@@ -20,52 +22,82 @@ from tkinter import font as tkfont
 
 # --- YOUR WORDS GO HERE -------------------------------------------------------
 WORDS = [
-    "comme", "son", "que", "était", "pour", "sur", "sont", "avec",
-    "ils", "être", "un", "avoir", "ce", "à partir de", "par", "chaud",
-    "mot", "mais", "que", "certains", "est", "il", "vous", "ou", "eu", "la",
-    "de", "à", "et", "un", "dans", "nous", "boîte", "dehors", "autre",
-    "étaient", "qui", "faire", "leur", "temps", "si", "volonté", "comment",
-    "dit", "un an", "chaque", "dire", "ne", "ensemble", "trois", "vouloir",
-    "air", "bien", "aussi", "jouer", "petit", "fin", "mettre", "maison",
-    "lire", "main", "port", "grand", "épeler", "ajouter", "même", "terre",
-    "ici", "il faut", "grand", "haut", "tel", "suivre", "acte", "pourquoi",
-    "interroger", "hommes", "changement", "est allé", "lumière", "genre", "besoin",
-    "maison", "image", "essayer", "nous", "encore", "animal",
-    "point", "mère", "monde", "près de", "construire", "soi", "terre", "père",
-    "tout", "nouveau", "travail", "partie", "prendre", "obtenir", "lieu",
-    "fabriqué", "vivre", "où", "après", "arrière", "peu", "seulement", "tour",
-    "homme", "année", "est venu", "montrer", "tous", "bon", "moi", "donner",
-    "notre", "sous", "nom", "très", "par", "juste", "forme", "phrase", "grand",
-    "penser", "dire", "aider", "faible", "ligne", "différer", "tour", "cause",
-    "beaucoup", "signifier", "avant", "déménagement", "droit", "garçon",
-    "vieux", "trop", "même", "elle", "tous", "là", "quand", "jusqu’à",
-    "utiliser", "votre", "manière", "sur", "beaucoup", "puis", "les", "écrire",
-    "voudrais", "comme", "si", "ces", "son", "long", "faire", "chose", "voir",
-    "lui", "deux", "regarder", "plus", "jour", "pourrait", "aller",
-    "venir", "fait", "nombre", "son", "aucun", "plus", "personnes",
-    "sur", "savoir", "eau", "que", "appel", "première", "qui", "peut",
-    "vers le bas", "côté", "été", "maintenant", "trouver", "tête", "support",
-    "propre", "page", "devrait", "pays", "trouvé", "réponse", "école", "croître",
-    "étude", "encore", "apprendre", "plante", "couvrir", "nourriture", "soleil",
-    "quatre", "entre", "état", "garder", "œil", "jamais", "dernier", "laisser",
-    "pensée", "ville", "arbre", "traverser", "ferme", "dur", "début", "puissance",
-    "histoire", "scie", "loin", "mer", "tirer", "gauche", "tard", "courir",
-    "ne pas", "alors", "pendant", "presse", "fermer", "nuit", "réel", "vie",
-    "peu", "nord", "livre", "porter", "a pris", "science", "manger", "chambre",
-    "ami", "a commencé", "idée", "poisson", "montagne", "arrêter", "une fois",
-    "base", "entendre", "cheval", "couper", "sûr", "regarder", "couleur",
-    "face", "bois", "principal", "ouvert", "semble", "ensemble", "prochain",
-    "blanc", "enfants", "commencer", "marcher", "exemple", "facilité",
-    "papier", "groupe", "toujours", "musique", "ceux", "tous les deux",
-    "marque", "souvent", "lettre", "jusqu’à", "mile", "rivière", "voiture",
-    "pieds", "soins", "deuxième", "assez", "plaine", "fille", "habituel"
+    "สวัสดี",   # bonjour
+    "ขอบคุณ",   # merci
+    "ใช่",       # oui
+    "ไม่",       # non
+    "ขอโทษ",    # désolé
+    "ฉัน",       # je (femme)
+    "ผม",        # je (homme)
+    "คุณ",       # vous
+    "เขา",       # il/elle
+    "บ้าน",      # maison
+    "โรงเรียน",  # école
+    "น้ำ",       # eau
+    "ข้าว",      # riz
+    "หมา",       # chien
+    "แมว",       # chat
+    "เด็ก",      # enfant
+    "รัก",       # aimer
+    "ดี",        # bien
+    "ร้อน",      # chaud
+    "เย็น",      # froid
+    "วัน",       # jour
+    "คืน",       # nuit
+    "หนึ่ง",     # un
+    "สอง",       # deux
+    "สาม",       # trois
+    "สิบ",       # dix
+    "อาหาร",     # nourriture
+    "ตลาด",      # marché
+    "เงิน",       # argent
+    "รถ",        # voiture
+    "มือ",       # main
+    "หัวใจ",     # cœur
 ]
 
+# --- TRANSLATIONS (Thai -> French) -------------------------------------------
+TRANSLATIONS = {
+    "สวัสดี": "bonjour",
+    "ขอบคุณ": "merci",
+    "ใช่": "oui",
+    "ไม่": "non",
+    "ขอโทษ": "désolé",
+    "ฉัน": "je (femme)",
+    "ผม": "je (homme)",
+    "คุณ": "vous",
+    "เขา": "il/elle",
+    "บ้าน": "maison",
+    "โรงเรียน": "école",
+    "น้ำ": "eau",
+    "ข้าว": "riz",
+    "หมา": "chien",
+    "แมว": "chat",
+    "เด็ก": "enfant",
+    "รัก": "aimer",
+    "ดี": "bien",
+    "ร้อน": "chaud",
+    "เย็น": "froid",
+    "วัน": "jour",
+    "คืน": "nuit",
+    "หนึ่ง": "un",
+    "สอง": "deux",
+    "สาม": "trois",
+    "สิบ": "dix",
+    "อาหาร": "nourriture",
+    "ตลาด": "marché",
+    "เงิน": "argent",
+    "รถ": "voiture",
+    "มือ": "main",
+    "หัวใจ": "cœur",
+}
+
 # --- TIMING (milliseconds) ----------------------------------------------------
-PRE_DELAY_MS = 500      # Wait before first beep
+PRE_DELAY_MS = 500       # Wait before first beep
 BEEP_INTERVAL_MS = 1000  # Interval between beeps
 N_BEEPS = 0              # Number of beeps
-FLASH_MS = 50           # Word flash duration
+FLASH_MS = 1000          # Word flash duration
+TRANSLATION_MS = 2000    # How long the translation stays visible
 
 # --- BEHAVIOR -----------------------------------------------------------------
 SHUFFLE = True
@@ -129,18 +161,30 @@ class App:
         self.entry.focus_set()
 
         # --- KEY BINDINGS ---
-        # Bind Enter to the entry widget (reliable across platforms)
+        # Enter to validate
         self.entry.bind("<Return>", self.on_return)
         self.entry.bind("<KP_Enter>", self.on_return)  # numpad Enter
-        # Bind Space on entry so it doesn't insert a space
-        self.entry.bind("<space>", self.on_space)
 
-        # Also bind space globally for completeness (e.g., when entry loses focus)
+        # Space to next (prevent space char in entry)
+        self.entry.bind("<space>", self.on_space)
         self.root.bind("<space>", self.on_space)
+
+        # B to re-flash same word
+        self.entry.bind("<KeyPress-b>", self.on_b)
+        self.entry.bind("<KeyPress-B>", self.on_b)
+        self.root.bind("<KeyPress-b>", self.on_b)
+        self.root.bind("<KeyPress-B>", self.on_b)
+
+        # T to show French translation
+        self.entry.bind("<KeyPress-t>", self.on_t)
+        self.entry.bind("<KeyPress-T>", self.on_t)
+        self.root.bind("<KeyPress-t>", self.on_t)
+        self.root.bind("<KeyPress-T>", self.on_t)
 
         # Internal scheduling state
         self._scheduled = []
         self._trial_active = False
+        self._trans_sid = None  # hide-translation timer id
 
         # Start the first trial
         self.start_trial()
@@ -194,6 +238,14 @@ class App:
         self._scheduled.clear()
         self._trial_active = False
         self.index += 1
+
+        # Also clear any pending translation hide
+        if self._trans_sid is not None:
+            try:
+                self.root.after_cancel(self._trans_sid)
+            except Exception:
+                pass
+            self._trans_sid = None
 
     # ------------------------- Beep / flash logic ------------------------------
     def beep(self):
@@ -254,10 +306,56 @@ class App:
         self.start_trial()
         return "break"  # avoid inserting a space into the Entry
 
+    def on_b(self, event=None):
+        """Re-flash the SAME word immediately, without advancing the index."""
+        if not self.current_word:
+            return "break"
+
+        # Cancel any pending scheduled callbacks (beeps/hide/queued flash)
+        for sid in self._scheduled:
+            try:
+                self.root.after_cancel(sid)
+            except Exception:
+                pass
+        self._scheduled.clear()
+
+        # Show the same word again now and re-arm hide
+        self.word_var.set(self.current_word)
+        self._trial_active = True  # still same trial
+        self._scheduled.append(self.root.after(FLASH_MS, self.hide_word))
+
+        return "break"  # don't insert 'b' into the Entry
+
+    def on_t(self, event=None):
+        """Show French translation of the current word for TRANSLATION_MS."""
+        if not self.current_word:
+            return "break"
+
+        # Cancel previous translation hide if any
+        if self._trans_sid is not None:
+            try:
+                self.root.after_cancel(self._trans_sid)
+            except Exception:
+                pass
+            self._trans_sid = None
+
+        trans = TRANSLATIONS.get(self.current_word, "—")
+        self.feedback_var.set(f"FR: {trans}")
+        self.feedback_label.config(fg="#FFD600")  # yellow/amber
+
+        # Auto-hide translation after a short delay
+        self._trans_sid = self.root.after(TRANSLATION_MS, self._hide_translation)
+        return "break"
+
+    def _hide_translation(self):
+        """Clear translation line and restore default color."""
+        self.feedback_var.set("")
+        self.feedback_label.config(fg="white")
+        self._trans_sid = None
+
 
 root = tk.Tk()
 root.geometry("900x600")
 root.configure(bg="black")
 App(root)
 root.mainloop()
-
